@@ -33,12 +33,12 @@
   "devDependencies": {
     "@patrick-baber-test/core": "workspace:^",
     "@patrick-baber-test/pm": "workspace:^",
-    "@patrick-baber-test/y-tiptap": "^3.0.0"
+    "@tiptap/y-tiptap": "^3.0.0"
   },
   "peerDependencies": {
     "@patrick-baber-test/core": "workspace:^",
     "@patrick-baber-test/pm": "workspace:^",
-    "@patrick-baber-test/y-tiptap": "^3.0.0"
+    "@tiptap/y-tiptap": "^3.0.0"
   },
   "repository": {
     "type": "git",
