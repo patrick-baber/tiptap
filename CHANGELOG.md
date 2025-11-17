@@ -1,5 +1,27 @@
 # Releases
 
+## v3.10.8
+
+### @patrick-baber-test/core
+
+#### Patch Changes
+
+- Fixed a bug that caused extra characters to be inserted after a parsed, nestable content block by accounting for leading newlines
+- Add documentation comments to Tiptap JSON types
+- Fix `updateAttributes` and `resetAttributes` commands to return accurate results when used with `.can()`. Previously, these commands would always return `true` even when they couldn't perform the operation. Now they correctly return `false` when no matching nodes or marks are found in the selection.
+
+### @patrick-baber-test/extension-text-align
+
+#### Patch Changes
+
+- Fix `setTextAlign` and `unsetTextAlign` commands to work correctly with `.can()` checks. Changed logic from `.every()` to `.some()` to return `true` when at least one configured node type matches, rather than requiring all types to match.
+
+### @patrick-baber-test/static-renderer
+
+#### Patch Changes
+
+- Fix static HTML renderer incorrectly generating self-closing tags for HTML elements that require proper closing tags (iframe, script, style, etc.).
+
 ## v3.10.7
 
 ### @tiptap/vue-2
