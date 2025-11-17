@@ -1,5 +1,16 @@
 # Change Log
 
+## 3.10.8
+
+### Patch Changes
+
+- 32eb2e8: Fix static HTML renderer incorrectly generating self-closing tags for HTML elements that require proper closing tags (iframe, script, style, etc.).
+- Updated dependencies [8375241]
+- Updated dependencies [b7ead7c]
+- Updated dependencies [fd479bd]
+  - @patrick-baber-test/core@3.10.8
+  - @patrick-baber-test/pm@3.10.8
+
 ## 3.10.7
 
 ### Patch Changes
