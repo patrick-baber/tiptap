@@ -1,4 +1,4 @@
-/** @jsxImportSource @tiptap/core */
+/** @jsxImportSource @patrick-baber-test/core */
 import { Mark, markInputRule, markPasteRule, mergeAttributes } from '@patrick-baber-test/core'
 
 export interface BoldOptions {

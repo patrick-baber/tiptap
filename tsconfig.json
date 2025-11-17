@@ -17,27 +17,27 @@
     "allowJs": true,
     "checkJs": false,
     "paths": {
-      "@tiptap/static-renderer/pm/html-string": [
+      "@patrick-baber-test/static-renderer/pm/html-string": [
         "packages/static-renderer/src/pm/html-string/index.js",
         "packages/static-renderer/src/pm/html-string/index.ts"
       ],
-      "@tiptap/static-renderer/pm/markdown": [
+      "@patrick-baber-test/static-renderer/pm/markdown": [
         "packages/static-renderer/src/pm/markdown/index.js",
         "packages/static-renderer/src/pm/markdown/index.ts"
       ],
-      "@tiptap/static-renderer/pm/react": [
+      "@patrick-baber-test/static-renderer/pm/react": [
         "packages/static-renderer/src/pm/react/index.js",
         "packages/static-renderer/src/pm/react/index.ts"
       ],
-      "@tiptap/static-renderer/json/html-string": [
+      "@patrick-baber-test/static-renderer/json/html-string": [
         "packages/static-renderer/src/json/html-string/index.js",
         "packages/static-renderer/src/json/html-string/index.ts"
       ],
-      "@tiptap/static-renderer/json/react": [
+      "@patrick-baber-test/static-renderer/json/react": [
         "packages/static-renderer/src/json/react/index.js",
         "packages/static-renderer/src/json/react/index.ts"
       ],
-      "@tiptap/*": [
+      "@patrick-baber-test/*": [
         "packages/*/src/index.js",
         "packages/*/src/index.ts",
         "packages/*/dist/index.js",
@@ -46,7 +46,8 @@
         "packages-deprecated/*/src/index.ts",
         "packages-deprecated/*/dist/index.js",
         "packages-deprecated/*/dist/index.ts"
-      ]
+      ],
+      "@tiptap/y-tiptap": ["node_modules/@tiptap/y-tiptap"]
     },
     "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
   },

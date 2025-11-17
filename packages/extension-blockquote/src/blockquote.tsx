@@ -1,4 +1,4 @@
-/** @jsxImportSource @tiptap/core */
+/** @jsxImportSource @patrick-baber-test/core */
 import { mergeAttributes, Node, wrappingInputRule } from '@patrick-baber-test/core'
 
 export interface BlockquoteOptions {
