@@ -7,7 +7,21 @@
   "access": "public",
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
-  "ignore": [],
+  "ignore": [
+    "@patrick-baber-test/extension-character-count",
+    "@patrick-baber-test/extension-dropcursor",
+    "@patrick-baber-test/extension-focus",
+    "@patrick-baber-test/extension-gapcursor",
+    "@patrick-baber-test/extension-history",
+    "@patrick-baber-test/extension-list-item",
+    "@patrick-baber-test/extension-list-keymap",
+    "@patrick-baber-test/extension-placeholder",
+    "@patrick-baber-test/extension-table-cell",
+    "@patrick-baber-test/extension-table-header",
+    "@patrick-baber-test/extension-table-row",
+    "@patrick-baber-test/extension-task-item",
+    "@patrick-baber-test/extension-task-list"
+  ],
   "___experimentalUnsafeOptions_WILL_CHANGE_IN_PATCH": {
     "onlyUpdatePeerDependentsWhenOutOfRange": true
   }
