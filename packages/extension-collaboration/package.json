@@ -1,5 +1,5 @@
 {
-  "name": "@tiptap/extension-collaboration",
+  "name": "@patrick-baber-test/extension-collaboration",
   "description": "collaboration extension for tiptap",
   "version": "3.10.7",
   "homepage": "https://tiptap.dev",
@@ -10,7 +10,7 @@
   "license": "MIT",
   "funding": {
     "type": "github",
-    "url": "https://github.com/sponsors/ueberdosis"
+    "url": "https://github.com/patrick-baber"
   },
   "type": "module",
   "exports": {
@@ -31,19 +31,19 @@
     "dist"
   ],
   "devDependencies": {
-    "@tiptap/core": "workspace:^",
-    "@tiptap/pm": "workspace:^",
-    "@tiptap/y-tiptap": "^3.0.0"
+    "@patrick-baber-test/core": "workspace:^",
+    "@patrick-baber-test/pm": "workspace:^",
+    "@patrick-baber-test/y-tiptap": "^3.0.0"
   },
   "peerDependencies": {
-    "@tiptap/core": "workspace:^",
-    "@tiptap/pm": "workspace:^",
-    "@tiptap/y-tiptap": "^3.0.0",
-    "yjs": "^13"
+    "yjs": "^13",
+    "@patrick-baber-test/core": "workspace:^",
+    "@patrick-baber-test/pm": "workspace:^",
+    "@patrick-baber-test/y-tiptap": "^3.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/patrick-baber/tiptap",
     "directory": "packages/extension-collaboration"
   },
   "scripts": {

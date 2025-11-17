@@ -1,5 +1,5 @@
 {
-  "name": "@tiptap/html",
+  "name": "@patrick-baber-test/html",
   "description": "utility package to render tiptap JSON as HTML",
   "version": "3.10.7",
   "homepage": "https://tiptap.dev",
@@ -10,7 +10,7 @@
   "license": "MIT",
   "funding": {
     "type": "github",
-    "url": "https://github.com/sponsors/ueberdosis"
+    "url": "https://github.com/patrick-baber"
   },
   "exports": {
     ".": {
@@ -43,18 +43,18 @@
     "dist"
   ],
   "devDependencies": {
-    "@tiptap/core": "workspace:^",
-    "@tiptap/pm": "workspace:^",
-    "happy-dom": "^20.0.2"
+    "happy-dom": "^20.0.2",
+    "@patrick-baber-test/core": "workspace:^",
+    "@patrick-baber-test/pm": "workspace:^"
   },
   "peerDependencies": {
-    "@tiptap/core": "workspace:^",
-    "@tiptap/pm": "workspace:^",
-    "happy-dom": "^20.0.2"
+    "happy-dom": "^20.0.2",
+    "@patrick-baber-test/core": "workspace:^",
+    "@patrick-baber-test/pm": "workspace:^"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/patrick-baber/tiptap",
     "directory": "packages/html"
   },
   "scripts": {

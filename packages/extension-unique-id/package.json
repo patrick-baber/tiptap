@@ -1,5 +1,5 @@
 {
-  "name": "@tiptap/extension-unique-id",
+  "name": "@patrick-baber-test/extension-unique-id",
   "description": "unique id extension for tiptap",
   "version": "3.10.7",
   "homepage": "https://tiptap.dev/api/extensions/unique-id",
@@ -10,7 +10,7 @@
   "license": "MIT",
   "funding": {
     "type": "github",
-    "url": "https://github.com/sponsors/ueberdosis"
+    "url": "https://github.com/patrick-baber"
   },
   "type": "module",
   "exports": {
@@ -31,20 +31,20 @@
     "dist"
   ],
   "peerDependencies": {
-    "@tiptap/core": "workspace:^",
-    "@tiptap/pm": "workspace:^"
+    "@patrick-baber-test/core": "workspace:^",
+    "@patrick-baber-test/pm": "workspace:^"
   },
   "dependencies": {
     "uuid": "^10.0.0"
   },
   "devDependencies": {
-    "@tiptap/core": "workspace:^",
-    "@tiptap/pm": "workspace:^",
-    "@types/uuid": "^10.0.0"
+    "@types/uuid": "^10.0.0",
+    "@patrick-baber-test/core": "workspace:^",
+    "@patrick-baber-test/pm": "workspace:^"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/patrick-baber/tiptap",
     "directory": "packages/extension-unique-id"
   },
   "scripts": {

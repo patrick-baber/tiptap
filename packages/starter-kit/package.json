@@ -1,5 +1,5 @@
 {
-  "name": "@tiptap/starter-kit",
+  "name": "@patrick-baber-test/starter-kit",
   "description": "starter kit for tiptap",
   "version": "3.10.7",
   "homepage": "https://tiptap.dev",
@@ -10,7 +10,7 @@
   "license": "MIT",
   "funding": {
     "type": "github",
-    "url": "https://github.com/sponsors/ueberdosis"
+    "url": "https://github.com/patrick-baber"
   },
   "exports": {
     ".": {
@@ -31,34 +31,34 @@
     "dist"
   ],
   "dependencies": {
-    "@tiptap/core": "workspace:^",
-    "@tiptap/extension-blockquote": "workspace:^",
-    "@tiptap/extension-bold": "workspace:^",
-    "@tiptap/extension-bullet-list": "workspace:^",
-    "@tiptap/extension-code": "workspace:^",
-    "@tiptap/extension-code-block": "workspace:^",
-    "@tiptap/extension-document": "workspace:^",
-    "@tiptap/extension-dropcursor": "workspace:^",
-    "@tiptap/extension-gapcursor": "workspace:^",
-    "@tiptap/extension-hard-break": "workspace:^",
-    "@tiptap/extension-heading": "workspace:^",
-    "@tiptap/extension-horizontal-rule": "workspace:^",
-    "@tiptap/extension-italic": "workspace:^",
-    "@tiptap/extension-link": "workspace:^",
-    "@tiptap/extension-list": "workspace:^",
-    "@tiptap/extension-list-item": "workspace:^",
-    "@tiptap/extension-list-keymap": "workspace:^",
-    "@tiptap/extension-ordered-list": "workspace:^",
-    "@tiptap/extension-paragraph": "workspace:^",
-    "@tiptap/extension-strike": "workspace:^",
-    "@tiptap/extension-text": "workspace:^",
-    "@tiptap/extension-underline": "workspace:^",
-    "@tiptap/extensions": "workspace:^",
-    "@tiptap/pm": "workspace:^"
+    "@patrick-baber-test/core": "workspace:^",
+    "@patrick-baber-test/extension-blockquote": "workspace:^",
+    "@patrick-baber-test/extension-bold": "workspace:^",
+    "@patrick-baber-test/extension-bullet-list": "workspace:^",
+    "@patrick-baber-test/extension-code": "workspace:^",
+    "@patrick-baber-test/extension-code-block": "workspace:^",
+    "@patrick-baber-test/extension-document": "workspace:^",
+    "@patrick-baber-test/extension-dropcursor": "workspace:^",
+    "@patrick-baber-test/extension-gapcursor": "workspace:^",
+    "@patrick-baber-test/extension-hard-break": "workspace:^",
+    "@patrick-baber-test/extension-heading": "workspace:^",
+    "@patrick-baber-test/extension-horizontal-rule": "workspace:^",
+    "@patrick-baber-test/extension-italic": "workspace:^",
+    "@patrick-baber-test/extension-link": "workspace:^",
+    "@patrick-baber-test/extension-list": "workspace:^",
+    "@patrick-baber-test/extension-list-item": "workspace:^",
+    "@patrick-baber-test/extension-list-keymap": "workspace:^",
+    "@patrick-baber-test/extension-ordered-list": "workspace:^",
+    "@patrick-baber-test/extension-paragraph": "workspace:^",
+    "@patrick-baber-test/extension-strike": "workspace:^",
+    "@patrick-baber-test/extension-text": "workspace:^",
+    "@patrick-baber-test/extension-underline": "workspace:^",
+    "@patrick-baber-test/extensions": "workspace:^",
+    "@patrick-baber-test/pm": "workspace:^"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/patrick-baber/tiptap",
     "directory": "packages/starter-kit"
   },
   "scripts": {

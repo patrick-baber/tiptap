@@ -1,5 +1,5 @@
 {
-  "name": "@tiptap/extension-drag-handle",
+  "name": "@patrick-baber-test/extension-drag-handle",
   "description": "drag handle extension for tiptap",
   "version": "3.10.7",
   "homepage": "https://tiptap.dev/docs/editor/extensions/functionality/drag-handle",
@@ -10,11 +10,11 @@
   "license": "MIT",
   "funding": {
     "type": "github",
-    "url": "https://github.com/sponsors/ueberdosis"
+    "url": "https://github.com/patrick-baber"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/patrick-baber/tiptap",
     "directory": "packages/extension-drag-handle"
   },
   "type": "module",
@@ -36,22 +36,22 @@
     "dist"
   ],
   "peerDependencies": {
-    "@tiptap/extension-node-range": "workspace:^",
-    "@tiptap/core": "workspace:^",
-    "@tiptap/extension-collaboration": "workspace:^",
-    "@tiptap/pm": "workspace:^",
-    "@tiptap/y-tiptap": "^3.0.0"
+    "@patrick-baber-test/extension-node-range": "workspace:^",
+    "@patrick-baber-test/core": "workspace:^",
+    "@patrick-baber-test/extension-collaboration": "workspace:^",
+    "@patrick-baber-test/pm": "workspace:^",
+    "@patrick-baber-test/y-tiptap": "^3.0.0"
   },
   "dependencies": {
     "@floating-ui/dom": "^1.6.13"
   },
   "devDependencies": {
     "@floating-ui/dom": "^1.6.13",
-    "@tiptap/extension-node-range": "workspace:^",
-    "@tiptap/core": "workspace:^",
-    "@tiptap/extension-collaboration": "workspace:^",
-    "@tiptap/pm": "workspace:^",
-    "@tiptap/y-tiptap": "^3.0.0"
+    "@patrick-baber-test/extension-node-range": "workspace:^",
+    "@patrick-baber-test/core": "workspace:^",
+    "@patrick-baber-test/extension-collaboration": "workspace:^",
+    "@patrick-baber-test/pm": "workspace:^",
+    "@patrick-baber-test/y-tiptap": "^3.0.0"
   },
   "scripts": {
     "build": "tsup",

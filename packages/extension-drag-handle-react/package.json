@@ -1,5 +1,5 @@
 {
-  "name": "@tiptap/extension-drag-handle-react",
+  "name": "@patrick-baber-test/extension-drag-handle-react",
   "description": "drag handle extension for tiptap with react",
   "version": "3.10.7",
   "homepage": "https://tiptap.dev",
@@ -10,11 +10,11 @@
   "license": "MIT",
   "funding": {
     "type": "github",
-    "url": "https://github.com/sponsors/ueberdosis"
+    "url": "https://github.com/patrick-baber"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/patrick-baber/tiptap",
     "directory": "packages/extension-drag-handle-react"
   },
   "type": "module",
@@ -36,20 +36,20 @@
     "dist"
   ],
   "peerDependencies": {
-    "@tiptap/extension-drag-handle": "workspace:^",
-    "@tiptap/pm": "workspace:^",
-    "@tiptap/react": "workspace:^",
     "react": "^16.8 || ^17 || ^18 || ^19",
-    "react-dom": "^16.8 || ^17 || ^18 || ^19"
+    "react-dom": "^16.8 || ^17 || ^18 || ^19",
+    "@patrick-baber-test/extension-drag-handle": "workspace:^",
+    "@patrick-baber-test/pm": "workspace:^",
+    "@patrick-baber-test/react": "workspace:^"
   },
   "devDependencies": {
-    "@tiptap/extension-drag-handle": "workspace:^",
-    "@tiptap/pm": "workspace:^",
-    "@tiptap/react": "workspace:^",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "@patrick-baber-test/extension-drag-handle": "workspace:^",
+    "@patrick-baber-test/pm": "workspace:^",
+    "@patrick-baber-test/react": "workspace:^"
   },
   "scripts": {
     "build": "tsup",

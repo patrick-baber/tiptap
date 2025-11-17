@@ -1,5 +1,5 @@
 {
-  "name": "@tiptap/extension-details",
+  "name": "@patrick-baber-test/extension-details",
   "description": "details extension for tiptap",
   "version": "3.10.7",
   "homepage": "https://tiptap.dev/api/nodes/details",
@@ -10,7 +10,7 @@
   "license": "MIT",
   "funding": {
     "type": "github",
-    "url": "https://github.com/sponsors/ueberdosis"
+    "url": "https://github.com/patrick-baber"
   },
   "type": "module",
   "exports": {
@@ -31,18 +31,18 @@
     "dist"
   ],
   "devDependencies": {
-    "@tiptap/core": "workspace:^",
-    "@tiptap/extension-text-style": "workspace:^",
-    "@tiptap/pm": "workspace:^"
+    "@patrick-baber-test/core": "workspace:^",
+    "@patrick-baber-test/extension-text-style": "workspace:^",
+    "@patrick-baber-test/pm": "workspace:^"
   },
   "peerDependencies": {
-    "@tiptap/core": "workspace:^",
-    "@tiptap/extension-text-style": "workspace:^",
-    "@tiptap/pm": "workspace:^"
+    "@patrick-baber-test/core": "workspace:^",
+    "@patrick-baber-test/extension-text-style": "workspace:^",
+    "@patrick-baber-test/pm": "workspace:^"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/patrick-baber/tiptap",
     "directory": "packages/extension-details"
   },
   "scripts": {

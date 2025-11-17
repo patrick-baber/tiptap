@@ -1,5 +1,5 @@
 {
-  "name": "@tiptap/extension-mathematics",
+  "name": "@patrick-baber-test/extension-mathematics",
   "description": "latex math extension for tiptap",
   "version": "3.10.7",
   "homepage": "https://tiptap.dev/api/extensions/mathematics",
@@ -10,11 +10,11 @@
   "license": "MIT",
   "funding": {
     "type": "github",
-    "url": "https://github.com/sponsors/ueberdosis"
+    "url": "https://github.com/patrick-baber"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/patrick-baber/tiptap",
     "directory": "packages/extension-mathematics"
   },
   "type": "module",
@@ -36,14 +36,14 @@
     "dist"
   ],
   "devDependencies": {
-    "@tiptap/core": "workspace:^",
-    "@tiptap/pm": "workspace:^",
-    "@types/katex": "^0.16.7"
+    "@types/katex": "^0.16.7",
+    "@patrick-baber-test/core": "workspace:^",
+    "@patrick-baber-test/pm": "workspace:^"
   },
   "peerDependencies": {
-    "@tiptap/core": "workspace:^",
-    "@tiptap/pm": "workspace:^",
-    "katex": "^0.16.4"
+    "katex": "^0.16.4",
+    "@patrick-baber-test/core": "workspace:^",
+    "@patrick-baber-test/pm": "workspace:^"
   },
   "scripts": {
     "build": "tsup",

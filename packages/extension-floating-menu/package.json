@@ -1,5 +1,5 @@
 {
-  "name": "@tiptap/extension-floating-menu",
+  "name": "@patrick-baber-test/extension-floating-menu",
   "description": "floating-menu extension for tiptap",
   "version": "3.10.7",
   "homepage": "https://tiptap.dev",
@@ -10,7 +10,7 @@
   "license": "MIT",
   "funding": {
     "type": "github",
-    "url": "https://github.com/sponsors/ueberdosis"
+    "url": "https://github.com/patrick-baber"
   },
   "type": "module",
   "exports": {
@@ -32,17 +32,17 @@
   ],
   "devDependencies": {
     "@floating-ui/dom": "^1.6.12",
-    "@tiptap/core": "workspace:^",
-    "@tiptap/pm": "workspace:^"
+    "@patrick-baber-test/core": "workspace:^",
+    "@patrick-baber-test/pm": "workspace:^"
   },
   "peerDependencies": {
     "@floating-ui/dom": "^1.0.0",
-    "@tiptap/core": "workspace:^",
-    "@tiptap/pm": "workspace:^"
+    "@patrick-baber-test/core": "workspace:^",
+    "@patrick-baber-test/pm": "workspace:^"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/patrick-baber/tiptap",
     "directory": "packages/extension-floating-menu"
   },
   "sideEffects": false,

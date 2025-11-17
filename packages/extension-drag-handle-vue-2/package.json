@@ -1,5 +1,5 @@
 {
-  "name": "@tiptap/extension-drag-handle-vue-2",
+  "name": "@patrick-baber-test/extension-drag-handle-vue-2",
   "description": "drag handle extension for tiptap with vue 2",
   "version": "3.10.7",
   "homepage": "https://tiptap.dev",
@@ -10,11 +10,11 @@
   "license": "MIT",
   "funding": {
     "type": "github",
-    "url": "https://github.com/sponsors/ueberdosis"
+    "url": "https://github.com/patrick-baber"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/patrick-baber/tiptap",
     "directory": "packages/extension-drag-handle-vue-2"
   },
   "type": "module",
@@ -36,17 +36,17 @@
     "dist"
   ],
   "peerDependencies": {
-    "@tiptap/extension-drag-handle": "workspace:^",
-    "@tiptap/pm": "workspace:^",
-    "@tiptap/vue-2": "workspace:^",
-    "vue": "^2.0.0"
+    "vue": "^2.0.0",
+    "@patrick-baber-test/extension-drag-handle": "workspace:^",
+    "@patrick-baber-test/pm": "workspace:^",
+    "@patrick-baber-test/vue-2": "workspace:^"
   },
   "devDependencies": {
-    "@tiptap/extension-drag-handle": "workspace:^",
-    "@tiptap/pm": "workspace:^",
-    "@tiptap/vue-2": "workspace:^",
     "vue": "^2.0.0",
-    "vue-ts-types": "1.6.2"
+    "vue-ts-types": "1.6.2",
+    "@patrick-baber-test/extension-drag-handle": "workspace:^",
+    "@patrick-baber-test/pm": "workspace:^",
+    "@patrick-baber-test/vue-2": "workspace:^"
   },
   "scripts": {
     "build": "tsup",

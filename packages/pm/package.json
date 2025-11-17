@@ -1,5 +1,5 @@
 {
-  "name": "@tiptap/pm",
+  "name": "@patrick-baber-test/pm",
   "description": "prosemirror wrapper package for tiptap",
   "version": "3.10.7",
   "homepage": "https://tiptap.dev",
@@ -10,7 +10,7 @@
   "license": "MIT",
   "funding": {
     "type": "github",
-    "url": "https://github.com/sponsors/ueberdosis"
+    "url": "https://github.com/patrick-baber"
   },
   "type": "module",
   "exports": {
@@ -202,7 +202,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/patrick-baber/tiptap",
     "directory": "packages/pm"
   },
   "scripts": {

@@ -1,5 +1,5 @@
 {
-  "name": "@tiptap/extension-code-block-lowlight",
+  "name": "@patrick-baber-test/extension-code-block-lowlight",
   "description": "code block extension for tiptap",
   "version": "3.10.7",
   "homepage": "https://tiptap.dev",
@@ -10,7 +10,7 @@
   "license": "MIT",
   "funding": {
     "type": "github",
-    "url": "https://github.com/sponsors/ueberdosis"
+    "url": "https://github.com/patrick-baber"
   },
   "type": "module",
   "exports": {
@@ -31,21 +31,21 @@
     "dist"
   ],
   "devDependencies": {
-    "@tiptap/core": "workspace:^",
-    "@tiptap/extension-code-block": "workspace:^",
-    "@tiptap/pm": "workspace:^",
-    "lowlight": "^3.3.0"
+    "lowlight": "^3.3.0",
+    "@patrick-baber-test/core": "workspace:^",
+    "@patrick-baber-test/extension-code-block": "workspace:^",
+    "@patrick-baber-test/pm": "workspace:^"
   },
   "peerDependencies": {
-    "@tiptap/core": "workspace:^",
-    "@tiptap/extension-code-block": "workspace:^",
-    "@tiptap/pm": "workspace:^",
     "lowlight": "^2 || ^3",
-    "highlight.js": "^11"
+    "highlight.js": "^11",
+    "@patrick-baber-test/core": "workspace:^",
+    "@patrick-baber-test/extension-code-block": "workspace:^",
+    "@patrick-baber-test/pm": "workspace:^"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/patrick-baber/tiptap",
     "directory": "packages/extension-code-block-lowlight"
   },
   "scripts": {

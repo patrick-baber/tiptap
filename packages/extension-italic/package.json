@@ -1,5 +1,5 @@
 {
-  "name": "@tiptap/extension-italic",
+  "name": "@patrick-baber-test/extension-italic",
   "description": "italic extension for tiptap",
   "version": "3.10.7",
   "homepage": "https://tiptap.dev",
@@ -10,7 +10,7 @@
   "license": "MIT",
   "funding": {
     "type": "github",
-    "url": "https://github.com/sponsors/ueberdosis"
+    "url": "https://github.com/patrick-baber"
   },
   "type": "module",
   "exports": {
@@ -31,14 +31,14 @@
     "dist"
   ],
   "devDependencies": {
-    "@tiptap/core": "workspace:^"
+    "@patrick-baber-test/core": "workspace:^"
   },
   "peerDependencies": {
-    "@tiptap/core": "workspace:^"
+    "@patrick-baber-test/core": "workspace:^"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
+    "url": "https://github.com/patrick-baber/tiptap",
     "directory": "packages/extension-italic"
   },
   "scripts": {
