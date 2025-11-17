@@ -1,6 +1,6 @@
-import type { Transaction } from '@tiptap/pm/state'
-import { Selection } from '@tiptap/pm/state'
-import { ReplaceAroundStep, ReplaceStep } from '@tiptap/pm/transform'
+import type { Transaction } from '@patrick-baber-test/pm/state'
+import { Selection } from '@patrick-baber-test/pm/state'
+import { ReplaceAroundStep, ReplaceStep } from '@patrick-baber-test/pm/transform'
 
 // source: https://github.com/ProseMirror/prosemirror-state/blob/master/src/selection.js#L466
 export function selectionToInsertionEnd(tr: Transaction, startLen: number, bias: number) {

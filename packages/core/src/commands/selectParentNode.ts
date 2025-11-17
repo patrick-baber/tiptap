@@ -1,8 +1,8 @@
-import { selectParentNode as originalSelectParentNode } from '@tiptap/pm/commands'
+import { selectParentNode as originalSelectParentNode } from '@patrick-baber-test/pm/commands'
 
 import type { RawCommands } from '../types.js'
 
-declare module '@tiptap/core' {
+declare module '@patrick-baber-test/core' {
   interface Commands<ReturnType> {
     selectParentNode: {
       /**

@@ -1,4 +1,4 @@
-import { mergeAttributes, Node, wrappingInputRule } from '@tiptap/core'
+import { mergeAttributes, Node, wrappingInputRule } from '@patrick-baber-test/core'
 
 const ListItemName = 'listItem'
 const TextStyleName = 'textStyle'
@@ -33,7 +33,7 @@ export interface BulletListOptions {
   keepAttributes: boolean
 }
 
-declare module '@tiptap/core' {
+declare module '@patrick-baber-test/core' {
   interface Commands<ReturnType> {
     bulletList: {
       /**

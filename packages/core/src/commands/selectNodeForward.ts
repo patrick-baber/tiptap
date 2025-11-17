@@ -1,8 +1,8 @@
-import { selectNodeForward as originalSelectNodeForward } from '@tiptap/pm/commands'
+import { selectNodeForward as originalSelectNodeForward } from '@patrick-baber-test/pm/commands'
 
 import type { RawCommands } from '../types.js'
 
-declare module '@tiptap/core' {
+declare module '@patrick-baber-test/core' {
   interface Commands<ReturnType> {
     selectNodeForward: {
       /**

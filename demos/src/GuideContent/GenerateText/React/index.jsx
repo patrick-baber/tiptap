@@ -1,8 +1,8 @@
-import { generateText } from '@tiptap/core'
-import Document from '@tiptap/extension-document'
-import HardBreak from '@tiptap/extension-hard-break'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
+import { generateText } from '@patrick-baber-test/core'
+import Document from '@patrick-baber-test/extension-document'
+import HardBreak from '@patrick-baber-test/extension-hard-break'
+import Paragraph from '@patrick-baber-test/extension-paragraph'
+import Text from '@patrick-baber-test/extension-text'
 import React, { useMemo } from 'react'
 
 const json = {

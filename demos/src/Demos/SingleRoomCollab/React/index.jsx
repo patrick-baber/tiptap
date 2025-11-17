@@ -1,11 +1,11 @@
 import './styles.scss'
 
 import { TiptapCollabProvider } from '@hocuspocus/provider'
-import Collaboration from '@tiptap/extension-collaboration'
-import CollaborationCaret from '@tiptap/extension-collaboration-caret'
-import { CharacterCount } from '@tiptap/extensions'
-import { EditorContent, useEditor } from '@tiptap/react'
-import StarterKit from '@tiptap/starter-kit'
+import Collaboration from '@patrick-baber-test/extension-collaboration'
+import CollaborationCaret from '@patrick-baber-test/extension-collaboration-caret'
+import { CharacterCount } from '@patrick-baber-test/extensions'
+import { EditorContent, useEditor } from '@patrick-baber-test/react'
+import StarterKit from '@patrick-baber-test/starter-kit'
 import React, { useCallback, useEffect, useState } from 'react'
 import * as Y from 'yjs'
 

@@ -1,5 +1,5 @@
-import type { Mark, MarkType } from '@tiptap/pm/model'
-import type { EditorState } from '@tiptap/pm/state'
+import type { Mark, MarkType } from '@patrick-baber-test/pm/model'
+import type { EditorState } from '@patrick-baber-test/pm/state'
 
 import { getMarkType } from './getMarkType.js'
 

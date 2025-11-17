@@ -1,10 +1,10 @@
 import './styles.scss'
 
-import Blockquote from '@tiptap/extension-blockquote'
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { EditorContent, useEditor } from '@tiptap/react'
+import Blockquote from '@patrick-baber-test/extension-blockquote'
+import Document from '@patrick-baber-test/extension-document'
+import Paragraph from '@patrick-baber-test/extension-paragraph'
+import Text from '@patrick-baber-test/extension-text'
+import { EditorContent, useEditor } from '@patrick-baber-test/react'
 import React from 'react'
 
 export default () => {

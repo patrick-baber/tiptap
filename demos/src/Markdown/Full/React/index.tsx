@@ -1,18 +1,24 @@
 import './styles.scss'
 import 'katex/dist/katex.min.css'
 
-import { createBlockMarkdownSpec, Node } from '@tiptap/core'
-import { Details, DetailsContent, DetailsSummary } from '@tiptap/extension-details'
-import { Highlight } from '@tiptap/extension-highlight'
-import { Image } from '@tiptap/extension-image'
-import { TaskItem, TaskList } from '@tiptap/extension-list'
-import { Mathematics } from '@tiptap/extension-mathematics'
-import { Mention } from '@tiptap/extension-mention'
-import { TableKit } from '@tiptap/extension-table'
-import { Youtube } from '@tiptap/extension-youtube'
-import { Markdown } from '@tiptap/markdown'
-import { EditorContent, NodeViewContent, NodeViewWrapper, ReactNodeViewRenderer, useEditor } from '@tiptap/react'
-import StarterKit from '@tiptap/starter-kit'
+import { createBlockMarkdownSpec, Node } from '@patrick-baber-test/core'
+import { Details, DetailsContent, DetailsSummary } from '@patrick-baber-test/extension-details'
+import { Highlight } from '@patrick-baber-test/extension-highlight'
+import { Image } from '@patrick-baber-test/extension-image'
+import { TaskItem, TaskList } from '@patrick-baber-test/extension-list'
+import { Mathematics } from '@patrick-baber-test/extension-mathematics'
+import { Mention } from '@patrick-baber-test/extension-mention'
+import { TableKit } from '@patrick-baber-test/extension-table'
+import { Youtube } from '@patrick-baber-test/extension-youtube'
+import { Markdown } from '@patrick-baber-test/markdown'
+import {
+  EditorContent,
+  NodeViewContent,
+  NodeViewWrapper,
+  ReactNodeViewRenderer,
+  useEditor,
+} from '@patrick-baber-test/react'
+import StarterKit from '@patrick-baber-test/starter-kit'
 import React, { useState } from 'react'
 
 import { mdContent } from './content.js'

@@ -1,5 +1,5 @@
-import type { MarkType } from '@tiptap/pm/model'
-import type { EditorState } from '@tiptap/pm/state'
+import type { MarkType } from '@patrick-baber-test/pm/model'
+import type { EditorState } from '@patrick-baber-test/pm/state'
 
 import type { MarkRange } from '../types.js'
 import { objectIncludes } from '../utilities/objectIncludes.js'

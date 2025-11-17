@@ -3,11 +3,11 @@
 </template>
 
 <script>
-import Bold from '@tiptap/extension-bold'
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { renderToHTMLString } from '@tiptap/static-renderer'
+import Bold from '@patrick-baber-test/extension-bold'
+import Document from '@patrick-baber-test/extension-document'
+import Paragraph from '@patrick-baber-test/extension-paragraph'
+import Text from '@patrick-baber-test/extension-text'
+import { renderToHTMLString } from '@patrick-baber-test/static-renderer'
 
 const json = {
   type: 'doc',

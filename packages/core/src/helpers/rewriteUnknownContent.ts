@@ -1,4 +1,4 @@
-import type { Schema } from '@tiptap/pm/model'
+import type { Schema } from '@patrick-baber-test/pm/model'
 
 import type { JSONContent } from '../types.js'
 

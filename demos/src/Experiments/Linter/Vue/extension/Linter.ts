@@ -1,7 +1,7 @@
-import { Extension } from '@tiptap/core'
-import type { Node as ProsemirrorNode } from '@tiptap/pm/model'
-import { Plugin, PluginKey, TextSelection } from '@tiptap/pm/state'
-import { Decoration, DecorationSet } from '@tiptap/pm/view'
+import { Extension } from '@patrick-baber-test/core'
+import type { Node as ProsemirrorNode } from '@patrick-baber-test/pm/model'
+import { Plugin, PluginKey, TextSelection } from '@patrick-baber-test/pm/state'
+import { Decoration, DecorationSet } from '@patrick-baber-test/pm/view'
 
 import type { Result as Issue } from './LinterPlugin.js'
 import type LinterPlugin from './LinterPlugin.js'

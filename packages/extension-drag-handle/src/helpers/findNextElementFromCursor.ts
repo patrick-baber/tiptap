@@ -1,6 +1,6 @@
-import type { Editor } from '@tiptap/core'
-import type { Node } from '@tiptap/pm/model'
-import type { EditorView } from '@tiptap/pm/view'
+import type { Editor } from '@patrick-baber-test/core'
+import type { Node } from '@patrick-baber-test/pm/model'
+import type { EditorView } from '@patrick-baber-test/pm/view'
 
 export type FindElementNextToCoords = {
   x: number

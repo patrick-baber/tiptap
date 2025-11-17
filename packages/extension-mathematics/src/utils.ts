@@ -1,5 +1,5 @@
-import type { Editor } from '@tiptap/core'
-import type { Transaction } from '@tiptap/pm/state'
+import type { Editor } from '@patrick-baber-test/core'
+import type { Transaction } from '@patrick-baber-test/pm/state'
 
 /**
  * Regular expression to match LaTeX math strings wrapped in single dollar signs.

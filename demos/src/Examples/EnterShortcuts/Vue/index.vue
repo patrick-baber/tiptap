@@ -23,8 +23,8 @@
 </template>
 
 <script>
-import StarterKit from '@tiptap/starter-kit'
-import { Editor, EditorContent, Extension } from '@tiptap/vue-3'
+import StarterKit from '@patrick-baber-test/starter-kit'
+import { Editor, EditorContent, Extension } from '@patrick-baber-test/vue-3'
 
 const CustomKeyboardShortcutExtension = Extension.create({
   name: 'customKeyboardShortcuts',

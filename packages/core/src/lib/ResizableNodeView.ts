@@ -1,5 +1,5 @@
-import type { Node as PMNode } from '@tiptap/pm/model'
-import type { Decoration, DecorationSource, NodeView } from '@tiptap/pm/view'
+import type { Node as PMNode } from '@patrick-baber-test/pm/model'
+import type { Decoration, DecorationSource, NodeView } from '@patrick-baber-test/pm/view'
 
 const isTouchEvent = (e: MouseEvent | TouchEvent): e is TouchEvent => {
   return 'touches' in e

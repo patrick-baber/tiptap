@@ -3,12 +3,12 @@
 </template>
 
 <script>
-import Code from '@tiptap/extension-code'
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import Typography from '@tiptap/extension-typography'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Code from '@patrick-baber-test/extension-code'
+import Document from '@patrick-baber-test/extension-document'
+import Paragraph from '@patrick-baber-test/extension-paragraph'
+import Text from '@patrick-baber-test/extension-text'
+import Typography from '@patrick-baber-test/extension-typography'
+import { Editor, EditorContent } from '@patrick-baber-test/vue-3'
 
 import { ColorHighlighter } from './ColorHighlighter.ts'
 import { SmilieReplacer } from './SmilieReplacer.ts'

@@ -1,10 +1,10 @@
-import { findChildrenInRange, mergeAttributes, Node, nodeInputRule, Tracker } from '@tiptap/core'
+import { findChildrenInRange, mergeAttributes, Node, nodeInputRule, Tracker } from '@patrick-baber-test/core'
 
 export interface FigureOptions {
   HTMLAttributes: Record<string, any>
 }
 
-declare module '@tiptap/core' {
+declare module '@patrick-baber-test/core' {
   interface Commands<ReturnType> {
     figure: {
       /**

@@ -1,4 +1,4 @@
-import { mergeAttributes, Node } from '@tiptap/core'
+import { mergeAttributes, Node } from '@patrick-baber-test/core'
 
 export default Node.create({
   name: 'nodeView',

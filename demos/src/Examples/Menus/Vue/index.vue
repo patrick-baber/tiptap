@@ -48,9 +48,9 @@
 </template>
 
 <script>
-import StarterKit from '@tiptap/starter-kit'
-import { Editor, EditorContent } from '@tiptap/vue-3'
-import { BubbleMenu, FloatingMenu } from '@tiptap/vue-3/menus'
+import StarterKit from '@patrick-baber-test/starter-kit'
+import { Editor, EditorContent } from '@patrick-baber-test/vue-3'
+import { BubbleMenu, FloatingMenu } from '@patrick-baber-test/vue-3/menus'
 
 export default {
   components: {

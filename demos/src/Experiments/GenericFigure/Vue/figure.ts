@@ -1,5 +1,5 @@
-import { mergeAttributes, Node } from '@tiptap/core'
-import { Plugin } from '@tiptap/pm/state'
+import { mergeAttributes, Node } from '@patrick-baber-test/core'
+import { Plugin } from '@patrick-baber-test/pm/state'
 
 export const Figure = Node.create({
   name: 'figure',

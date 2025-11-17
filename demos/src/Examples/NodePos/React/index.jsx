@@ -1,8 +1,8 @@
 import './styles.scss'
 
-import Image from '@tiptap/extension-image'
-import { EditorContent, useEditor } from '@tiptap/react'
-import StarterKit from '@tiptap/starter-kit'
+import Image from '@patrick-baber-test/extension-image'
+import { EditorContent, useEditor } from '@patrick-baber-test/react'
+import StarterKit from '@patrick-baber-test/starter-kit'
 import React, { useCallback, useState } from 'react'
 
 const mapNodePosToString = nodePos =>

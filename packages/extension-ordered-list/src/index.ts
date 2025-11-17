@@ -1,6 +1,6 @@
-import { OrderedList } from '@tiptap/extension-list'
+import { OrderedList } from '@patrick-baber-test/extension-list'
 
-export type { OrderedListOptions } from '@tiptap/extension-list'
-export { OrderedList } from '@tiptap/extension-list'
+export type { OrderedListOptions } from '@patrick-baber-test/extension-list'
+export { OrderedList } from '@patrick-baber-test/extension-list'
 
 export default OrderedList

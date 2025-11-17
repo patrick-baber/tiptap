@@ -29,12 +29,12 @@
 </template>
 
 <script>
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import { TableKit } from '@tiptap/extension-table'
-import Text from '@tiptap/extension-text'
-import { Gapcursor } from '@tiptap/extensions'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Document from '@patrick-baber-test/extension-document'
+import Paragraph from '@patrick-baber-test/extension-paragraph'
+import { TableKit } from '@patrick-baber-test/extension-table'
+import Text from '@patrick-baber-test/extension-text'
+import { Gapcursor } from '@patrick-baber-test/extensions'
+import { Editor, EditorContent } from '@patrick-baber-test/vue-3'
 
 export default {
   components: {

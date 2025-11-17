@@ -1,9 +1,9 @@
 import './styles.scss'
 
-import { TextStyleKit } from '@tiptap/extension-text-style'
-import type { Editor } from '@tiptap/react'
-import { EditorContent, useEditor, useEditorState } from '@tiptap/react'
-import StarterKit from '@tiptap/starter-kit'
+import { TextStyleKit } from '@patrick-baber-test/extension-text-style'
+import type { Editor } from '@patrick-baber-test/react'
+import { EditorContent, useEditor, useEditorState } from '@patrick-baber-test/react'
+import StarterKit from '@patrick-baber-test/starter-kit'
 import React from 'react'
 
 const extensions = [TextStyleKit, StarterKit]

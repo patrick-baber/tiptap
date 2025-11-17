@@ -1,6 +1,6 @@
-import { Extension } from '@tiptap/core'
-import type { SelectionRange } from '@tiptap/pm/state'
-import { Plugin, PluginKey } from '@tiptap/pm/state'
+import { Extension } from '@patrick-baber-test/core'
+import type { SelectionRange } from '@patrick-baber-test/pm/state'
+import { Plugin, PluginKey } from '@patrick-baber-test/pm/state'
 
 import { getNodeRangeDecorations } from './helpers/getNodeRangeDecorations.js'
 import { getSelectionRanges } from './helpers/getSelectionRanges.js'

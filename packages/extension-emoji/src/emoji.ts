@@ -8,11 +8,11 @@ import {
   Node,
   nodeInputRule,
   PasteRule,
-} from '@tiptap/core'
-import type { Transaction } from '@tiptap/pm/state'
-import { Plugin, PluginKey } from '@tiptap/pm/state'
-import type { SuggestionOptions } from '@tiptap/suggestion'
-import Suggestion from '@tiptap/suggestion'
+} from '@patrick-baber-test/core'
+import type { Transaction } from '@patrick-baber-test/pm/state'
+import { Plugin, PluginKey } from '@patrick-baber-test/pm/state'
+import type { SuggestionOptions } from '@patrick-baber-test/suggestion'
+import Suggestion from '@patrick-baber-test/suggestion'
 import emojiRegex from 'emoji-regex'
 import { isEmojiSupported } from 'is-emoji-supported'
 
@@ -21,7 +21,7 @@ import { emojiToShortcode } from './helpers/emojiToShortcode.js'
 import { removeDuplicates } from './helpers/removeDuplicates.js'
 import { shortcodeToEmoji } from './helpers/shortcodeToEmoji.js'
 
-declare module '@tiptap/core' {
+declare module '@patrick-baber-test/core' {
   interface Commands<ReturnType> {
     emoji: {
       /**

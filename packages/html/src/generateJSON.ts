@@ -1,7 +1,7 @@
-import type { Extensions } from '@tiptap/core'
-import { getSchema } from '@tiptap/core'
-import type { ParseOptions } from '@tiptap/pm/model'
-import { DOMParser } from '@tiptap/pm/model'
+import type { Extensions } from '@patrick-baber-test/core'
+import { getSchema } from '@patrick-baber-test/core'
+import type { ParseOptions } from '@patrick-baber-test/pm/model'
+import { DOMParser } from '@patrick-baber-test/pm/model'
 
 /**
  * Generates a JSON object from the given HTML string and converts it into a Prosemirror node with content.
@@ -18,7 +18,7 @@ import { DOMParser } from '@tiptap/pm/model'
 export function generateJSON(html: string, extensions: Extensions, options?: ParseOptions): Record<string, any> {
   if (typeof window === 'undefined') {
     throw new Error(
-      'generateJSON can only be used in a browser environment\nIf you want to use this in a Node environment, use the `@tiptap/html/server` import instead.',
+      'generateJSON can only be used in a browser environment\nIf you want to use this in a Node environment, use the `@patrick-baber-test/html/server` import instead.',
     )
   }
 

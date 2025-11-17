@@ -1,12 +1,12 @@
 import './styles.scss'
 
-import Document from '@tiptap/extension-document'
-import HardBreak from '@tiptap/extension-hard-break'
-import Heading from '@tiptap/extension-heading'
-import InvisibleCharacters from '@tiptap/extension-invisible-characters'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { EditorContent, useEditor } from '@tiptap/react'
+import Document from '@patrick-baber-test/extension-document'
+import HardBreak from '@patrick-baber-test/extension-hard-break'
+import Heading from '@patrick-baber-test/extension-heading'
+import InvisibleCharacters from '@patrick-baber-test/extension-invisible-characters'
+import Paragraph from '@patrick-baber-test/extension-paragraph'
+import Text from '@patrick-baber-test/extension-text'
+import { EditorContent, useEditor } from '@patrick-baber-test/react'
 import React from 'react'
 
 export default () => {

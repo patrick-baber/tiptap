@@ -1,5 +1,5 @@
-import { Extension } from '@tiptap/core'
-import { Plugin } from '@tiptap/pm/state'
+import { Extension } from '@patrick-baber-test/core'
+import { Plugin } from '@patrick-baber-test/pm/state'
 
 import findColors from './findColors.js'
 

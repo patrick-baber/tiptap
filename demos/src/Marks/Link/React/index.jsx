@@ -1,11 +1,11 @@
 import './styles.scss'
 
-import Code from '@tiptap/extension-code'
-import Document from '@tiptap/extension-document'
-import Link from '@tiptap/extension-link'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { EditorContent, useEditor, useEditorState } from '@tiptap/react'
+import Code from '@patrick-baber-test/extension-code'
+import Document from '@patrick-baber-test/extension-document'
+import Link from '@patrick-baber-test/extension-link'
+import Paragraph from '@patrick-baber-test/extension-paragraph'
+import Text from '@patrick-baber-test/extension-text'
+import { EditorContent, useEditor, useEditorState } from '@patrick-baber-test/react'
 import React, { useCallback } from 'react'
 
 export default () => {

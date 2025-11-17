@@ -3,10 +3,10 @@
 </template>
 
 <script>
-import Highlight from '@tiptap/extension-highlight'
-import Typography from '@tiptap/extension-typography'
-import StarterKit from '@tiptap/starter-kit'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Highlight from '@patrick-baber-test/extension-highlight'
+import Typography from '@patrick-baber-test/extension-typography'
+import StarterKit from '@patrick-baber-test/starter-kit'
+import { Editor, EditorContent } from '@patrick-baber-test/vue-3'
 
 export default {
   components: {

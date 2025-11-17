@@ -1,7 +1,7 @@
 import './styles.scss'
 
-import { EditorContent, useEditor } from '@tiptap/react'
-import StarterKit from '@tiptap/starter-kit'
+import { EditorContent, useEditor } from '@patrick-baber-test/react'
+import StarterKit from '@patrick-baber-test/starter-kit'
 import React, { useEffect, useState } from 'react'
 
 export default () => {

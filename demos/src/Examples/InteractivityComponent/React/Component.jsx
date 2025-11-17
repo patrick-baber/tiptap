@@ -1,4 +1,4 @@
-import { NodeViewWrapper } from '@tiptap/react'
+import { NodeViewWrapper } from '@patrick-baber-test/react'
 import React from 'react'
 
 export default props => {

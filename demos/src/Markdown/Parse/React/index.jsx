@@ -1,8 +1,8 @@
-import Image from '@tiptap/extension-image'
-import { TableKit } from '@tiptap/extension-table'
-import { Markdown } from '@tiptap/markdown'
-import { EditorContent, useEditor } from '@tiptap/react'
-import StarterKit from '@tiptap/starter-kit'
+import Image from '@patrick-baber-test/extension-image'
+import { TableKit } from '@patrick-baber-test/extension-table'
+import { Markdown } from '@patrick-baber-test/markdown'
+import { EditorContent, useEditor } from '@patrick-baber-test/react'
+import StarterKit from '@patrick-baber-test/starter-kit'
 import React from 'react'
 
 const markdown = `# Markdown parsing demo

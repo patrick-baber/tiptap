@@ -9,7 +9,7 @@
 </template>
 
 <script setup lang="ts">
-import { nodeViewProps, NodeViewWrapper } from '@tiptap/vue-3'
+import { nodeViewProps, NodeViewWrapper } from '@patrick-baber-test/vue-3'
 
 const props = defineProps(nodeViewProps)
 

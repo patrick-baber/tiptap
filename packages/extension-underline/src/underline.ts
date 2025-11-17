@@ -1,4 +1,4 @@
-import { Mark, mergeAttributes } from '@tiptap/core'
+import { Mark, mergeAttributes } from '@patrick-baber-test/core'
 
 export interface UnderlineOptions {
   /**
@@ -9,7 +9,7 @@ export interface UnderlineOptions {
   HTMLAttributes: Record<string, any>
 }
 
-declare module '@tiptap/core' {
+declare module '@patrick-baber-test/core' {
   interface Commands<ReturnType> {
     underline: {
       /**

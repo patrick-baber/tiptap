@@ -1,6 +1,6 @@
-import { Extension } from '@tiptap/core'
-import type { Node, NodeType } from '@tiptap/pm/model'
-import { Plugin, PluginKey } from '@tiptap/pm/state'
+import { Extension } from '@patrick-baber-test/core'
+import type { Node, NodeType } from '@patrick-baber-test/pm/model'
+import { Plugin, PluginKey } from '@patrick-baber-test/pm/state'
 
 function nodeEqualsType({ types, node }: { types: NodeType | NodeType[]; node: Node | null | undefined }) {
   return (node && Array.isArray(types) && types.includes(node.type)) || node?.type === types

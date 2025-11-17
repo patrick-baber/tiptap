@@ -4,14 +4,14 @@ import {
   type SetContentOptions as MarkdownSetContentOptions,
   commands,
   Extension,
-} from '@tiptap/core'
+} from '@patrick-baber-test/core'
 import type { marked } from 'marked'
 
 import MarkdownManager from './MarkdownManager.js'
 import type { ContentType } from './types.js'
 import { assumeContentType } from './utils.js'
 
-declare module '@tiptap/core' {
+declare module '@patrick-baber-test/core' {
   interface Editor {
     /**
      * Get the content of the editor as markdown.

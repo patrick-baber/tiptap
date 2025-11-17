@@ -1,5 +1,5 @@
-import type { Node } from '@tiptap/pm/model'
-import type { DecorationSet } from '@tiptap/pm/view'
+import type { Node } from '@patrick-baber-test/pm/model'
+import type { DecorationSet } from '@patrick-baber-test/pm/view'
 
 import { createDecorationWidget } from './utils/create-decoration-widget.js'
 import { textBetween } from './utils/text-between.js'

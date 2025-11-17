@@ -1,4 +1,4 @@
-import { Extension } from '@tiptap/core'
+import { Extension } from '@patrick-baber-test/core'
 
 type CustomStorage = {
   foo: number

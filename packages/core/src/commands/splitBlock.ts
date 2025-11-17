@@ -1,6 +1,6 @@
-import type { EditorState } from '@tiptap/pm/state'
-import { NodeSelection, TextSelection } from '@tiptap/pm/state'
-import { canSplit } from '@tiptap/pm/transform'
+import type { EditorState } from '@patrick-baber-test/pm/state'
+import { NodeSelection, TextSelection } from '@patrick-baber-test/pm/state'
+import { canSplit } from '@patrick-baber-test/pm/transform'
 
 import { defaultBlockAt } from '../helpers/defaultBlockAt.js'
 import { getSplittedAttributes } from '../helpers/getSplittedAttributes.js'
@@ -16,7 +16,7 @@ function ensureMarks(state: EditorState, splittableMarks?: string[]) {
   }
 }
 
-declare module '@tiptap/core' {
+declare module '@patrick-baber-test/core' {
   interface Commands<ReturnType> {
     splitBlock: {
       /**

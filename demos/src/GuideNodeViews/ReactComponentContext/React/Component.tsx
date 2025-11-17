@@ -1,5 +1,5 @@
-import type { ReactNodeViewProps } from '@tiptap/react'
-import { NodeViewWrapper } from '@tiptap/react'
+import type { ReactNodeViewProps } from '@patrick-baber-test/react'
+import { NodeViewWrapper } from '@patrick-baber-test/react'
 import React, { useContext } from 'react'
 
 import { Context } from './Context.js'

@@ -1,4 +1,4 @@
-import type { NodeViewProps as CoreNodeViewProps } from '@tiptap/core'
+import type { NodeViewProps as CoreNodeViewProps } from '@patrick-baber-test/core'
 import type React from 'react'
 
 export type ReactNodeViewProps<T = HTMLElement> = CoreNodeViewProps & {

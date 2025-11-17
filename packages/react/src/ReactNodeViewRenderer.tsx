@@ -4,10 +4,10 @@ import type {
   NodeViewRenderer,
   NodeViewRendererOptions,
   NodeViewRendererProps,
-} from '@tiptap/core'
-import { getRenderedAttributes, NodeView } from '@tiptap/core'
-import type { Node, Node as ProseMirrorNode } from '@tiptap/pm/model'
-import type { Decoration, DecorationSource, NodeView as ProseMirrorNodeView } from '@tiptap/pm/view'
+} from '@patrick-baber-test/core'
+import { getRenderedAttributes, NodeView } from '@patrick-baber-test/core'
+import type { Node, Node as ProseMirrorNode } from '@patrick-baber-test/pm/model'
+import type { Decoration, DecorationSource, NodeView as ProseMirrorNodeView } from '@patrick-baber-test/pm/view'
 import type { ComponentType, NamedExoticComponent } from 'react'
 import { createElement, createRef, memo } from 'react'
 

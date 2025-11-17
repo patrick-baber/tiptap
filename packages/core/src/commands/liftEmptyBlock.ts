@@ -1,8 +1,8 @@
-import { liftEmptyBlock as originalLiftEmptyBlock } from '@tiptap/pm/commands'
+import { liftEmptyBlock as originalLiftEmptyBlock } from '@patrick-baber-test/pm/commands'
 
 import type { RawCommands } from '../types.js'
 
-declare module '@tiptap/core' {
+declare module '@patrick-baber-test/core' {
   interface Commands<ReturnType> {
     liftEmptyBlock: {
       /**

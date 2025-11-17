@@ -1,5 +1,5 @@
-import type { NodeType } from '@tiptap/pm/model'
-import { type EditorState, NodeSelection } from '@tiptap/pm/state'
+import type { NodeType } from '@patrick-baber-test/pm/model'
+import { type EditorState, NodeSelection } from '@patrick-baber-test/pm/state'
 
 export function canInsertNode(state: EditorState, nodeType: NodeType): boolean {
   const { selection } = state

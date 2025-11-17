@@ -23,7 +23,7 @@ const getPackageDependencies = () => {
             }
 
             paths.push({
-              find: `@tiptap/${name}/${subPkgName}`,
+              find: `@patrick-baber-test/${name}/${subPkgName}`,
               replacement: resolve(`../${path}/${name}/${subPkgName}/index.ts`),
             })
           })
@@ -40,13 +40,13 @@ const getPackageDependencies = () => {
             const subPkgName = subName.replace(`../${path}/${name}/src/`, '')
 
             paths.push({
-              find: `@tiptap/${name}/${subPkgName}`,
+              find: `@patrick-baber-test/${name}/${subPkgName}`,
               replacement: resolve(`../${path}/${name}/src/${subPkgName}/index.ts`),
             })
           })
-          paths.push({ find: `@tiptap/${name}`, replacement: resolve(`../${path}/${name}/src/index.ts`) })
+          paths.push({ find: `@patrick-baber-test/${name}`, replacement: resolve(`../${path}/${name}/src/index.ts`) })
         } else {
-          paths.push({ find: `@tiptap/${name}`, replacement: resolve(`../${path}/${name}/src/index.ts`) })
+          paths.push({ find: `@patrick-baber-test/${name}`, replacement: resolve(`../${path}/${name}/src/index.ts`) })
         }
       })
   }
@@ -55,8 +55,14 @@ const getPackageDependencies = () => {
   collectPackageInformation('packages-deprecated')
 
   // Handle the JSX runtime alias
-  paths.unshift({ find: '@tiptap/core/jsx-runtime', replacement: resolve('../packages/core/src/jsx-runtime.ts') })
-  paths.unshift({ find: '@tiptap/core/jsx-dev-runtime', replacement: resolve('../packages/core/src/jsx-runtime.ts') })
+  paths.unshift({
+    find: '@patrick-baber-test/core/jsx-runtime',
+    replacement: resolve('../packages/core/src/jsx-runtime.ts'),
+  })
+  paths.unshift({
+    find: '@patrick-baber-test/core/jsx-dev-runtime',
+    replacement: resolve('../packages/core/src/jsx-runtime.ts'),
+  })
 
   return paths
 }

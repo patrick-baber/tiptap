@@ -1,4 +1,4 @@
-import type { Editor } from '@tiptap/core'
+import type { Editor } from '@patrick-baber-test/core'
 
 export const isNodeVisible = (position: number, editor: Editor): boolean => {
   const node = editor.view.domAtPos(position).node as HTMLElement

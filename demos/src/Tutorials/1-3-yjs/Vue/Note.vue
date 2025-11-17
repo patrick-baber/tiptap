@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { Collaboration } from '@tiptap/extension-collaboration'
-import StarterKit from '@tiptap/starter-kit'
-import { EditorContent, useEditor } from '@tiptap/vue-3'
+import { Collaboration } from '@patrick-baber-test/extension-collaboration'
+import StarterKit from '@patrick-baber-test/starter-kit'
+import { EditorContent, useEditor } from '@patrick-baber-test/vue-3'
 import * as Y from 'yjs'
 
 import type { TNote } from './types.js'

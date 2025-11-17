@@ -1,9 +1,9 @@
 import 'katex/dist/katex.min.css'
 import './styles.scss'
 
-import Math, { migrateMathStrings } from '@tiptap/extension-mathematics'
-import { EditorContent, useEditor } from '@tiptap/react'
-import StarterKit from '@tiptap/starter-kit'
+import Math, { migrateMathStrings } from '@patrick-baber-test/extension-mathematics'
+import { EditorContent, useEditor } from '@patrick-baber-test/react'
+import StarterKit from '@patrick-baber-test/starter-kit'
 import React, { useCallback } from 'react'
 
 export default () => {

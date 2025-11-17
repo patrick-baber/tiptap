@@ -1,4 +1,4 @@
-import { Mark, mergeAttributes } from '@tiptap/core'
+import { Mark, mergeAttributes } from '@patrick-baber-test/core'
 
 import type { TextStyleAttributes } from '../index.js'
 
@@ -19,7 +19,7 @@ export interface TextStyleOptions {
   mergeNestedSpanStyles: boolean
 }
 
-declare module '@tiptap/core' {
+declare module '@patrick-baber-test/core' {
   interface Commands<ReturnType> {
     textStyle: {
       /**

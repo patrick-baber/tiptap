@@ -1,7 +1,12 @@
-import type { DecorationWithType, NodeViewProps, NodeViewRenderer, NodeViewRendererOptions } from '@tiptap/core'
-import { NodeView } from '@tiptap/core'
-import type { Node as ProseMirrorNode } from '@tiptap/pm/model'
-import type { Decoration, DecorationSource, NodeView as ProseMirrorNodeView } from '@tiptap/pm/view'
+import type {
+  DecorationWithType,
+  NodeViewProps,
+  NodeViewRenderer,
+  NodeViewRendererOptions,
+} from '@patrick-baber-test/core'
+import { NodeView } from '@patrick-baber-test/core'
+import type { Node as ProseMirrorNode } from '@patrick-baber-test/pm/model'
+import type { Decoration, DecorationSource, NodeView as ProseMirrorNodeView } from '@patrick-baber-test/pm/view'
 import type { VueConstructor } from 'vue'
 import { booleanProp, functionProp, objectProp } from 'vue-ts-types'
 

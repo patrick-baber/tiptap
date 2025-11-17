@@ -1,6 +1,6 @@
-import type { Editor } from '@tiptap/core'
-import { getSelectionRanges, NodeRangeSelection } from '@tiptap/extension-node-range'
-import type { SelectionRange } from '@tiptap/pm/state'
+import type { Editor } from '@patrick-baber-test/core'
+import { getSelectionRanges, NodeRangeSelection } from '@patrick-baber-test/extension-node-range'
+import type { SelectionRange } from '@patrick-baber-test/pm/state'
 
 import { cloneElement } from './cloneElement.js'
 import { findElementNextToCoords } from './findNextElementFromCursor.js'

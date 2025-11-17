@@ -1,9 +1,9 @@
 import { type ComputePositionConfig, type VirtualElement, computePosition } from '@floating-ui/dom'
-import type { Editor } from '@tiptap/core'
-import { isChangeOrigin } from '@tiptap/extension-collaboration'
-import type { Node } from '@tiptap/pm/model'
-import { type EditorState, type Transaction, Plugin, PluginKey } from '@tiptap/pm/state'
-import type { EditorView } from '@tiptap/pm/view'
+import type { Editor } from '@patrick-baber-test/core'
+import { isChangeOrigin } from '@patrick-baber-test/extension-collaboration'
+import type { Node } from '@patrick-baber-test/pm/model'
+import { type EditorState, type Transaction, Plugin, PluginKey } from '@patrick-baber-test/pm/state'
+import type { EditorView } from '@patrick-baber-test/pm/view'
 import {
   absolutePositionToRelativePosition,
   relativePositionToAbsolutePosition,

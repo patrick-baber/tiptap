@@ -1,5 +1,5 @@
 import { computePosition } from '@floating-ui/dom'
-import { ReactRenderer } from '@tiptap/react'
+import { ReactRenderer } from '@patrick-baber-test/react'
 
 import { EmojiList } from './EmojiList.jsx'
 

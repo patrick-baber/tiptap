@@ -1,6 +1,6 @@
-import type { Editor } from '@tiptap/core'
-import { Extension } from '@tiptap/core'
-import type { Node as TiptapNode } from '@tiptap/pm/model'
+import type { Editor } from '@patrick-baber-test/core'
+import { Extension } from '@patrick-baber-test/core'
+import type { Node as TiptapNode } from '@patrick-baber-test/pm/model'
 import { v4 as uuidv4 } from 'uuid'
 
 import { TableOfContentsPlugin } from './plugin.js'

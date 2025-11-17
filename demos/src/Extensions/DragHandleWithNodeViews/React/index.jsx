@@ -1,8 +1,8 @@
 import './styles.scss'
 
-import DragHandle from '@tiptap/extension-drag-handle-react'
-import { EditorContent, useEditor } from '@tiptap/react'
-import StarterKit from '@tiptap/starter-kit'
+import DragHandle from '@patrick-baber-test/extension-drag-handle-react'
+import { EditorContent, useEditor } from '@patrick-baber-test/react'
+import StarterKit from '@patrick-baber-test/starter-kit'
 import React from 'react'
 
 import { Recommendation } from './extensions/recommendation/index.jsx'

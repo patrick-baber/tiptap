@@ -8,9 +8,9 @@
 </template>
 
 <script>
-import Emoji, { gitHubEmojis } from '@tiptap/extension-emoji'
-import StarterKit from '@tiptap/starter-kit'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Emoji, { gitHubEmojis } from '@patrick-baber-test/extension-emoji'
+import StarterKit from '@patrick-baber-test/starter-kit'
+import { Editor, EditorContent } from '@patrick-baber-test/vue-3'
 import { defineComponent } from 'vue'
 
 import suggestion from './suggestion.js'

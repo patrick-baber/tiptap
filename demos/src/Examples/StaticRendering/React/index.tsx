@@ -1,9 +1,9 @@
 import './styles.scss'
 
-import type { JSONContent } from '@tiptap/react'
-import { EditorProvider, useCurrentEditor, useEditorState } from '@tiptap/react'
-import StarterKit from '@tiptap/starter-kit'
-import { renderToHTMLString, renderToMarkdown, renderToReactElement } from '@tiptap/static-renderer'
+import type { JSONContent } from '@patrick-baber-test/react'
+import { EditorProvider, useCurrentEditor, useEditorState } from '@patrick-baber-test/react'
+import StarterKit from '@patrick-baber-test/starter-kit'
+import { renderToHTMLString, renderToMarkdown, renderToReactElement } from '@patrick-baber-test/static-renderer'
 import React, { useState } from 'react'
 
 const extensions = [StarterKit]

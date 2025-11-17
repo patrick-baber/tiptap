@@ -1,12 +1,12 @@
 import './styles.scss'
 
-import Document from '@tiptap/extension-document'
-import FileHandler from '@tiptap/extension-file-handler'
-import Heading from '@tiptap/extension-heading'
-import Image from '@tiptap/extension-image'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { EditorContent, useEditor } from '@tiptap/react'
+import Document from '@patrick-baber-test/extension-document'
+import FileHandler from '@patrick-baber-test/extension-file-handler'
+import Heading from '@patrick-baber-test/extension-heading'
+import Image from '@patrick-baber-test/extension-image'
+import Paragraph from '@patrick-baber-test/extension-paragraph'
+import Text from '@patrick-baber-test/extension-text'
+import { EditorContent, useEditor } from '@patrick-baber-test/react'
 import React from 'react'
 
 export default () => {

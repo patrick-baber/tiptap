@@ -1,6 +1,6 @@
 import './CodeBlockComponent.scss'
 
-import { NodeViewContent, NodeViewWrapper } from '@tiptap/react'
+import { NodeViewContent, NodeViewWrapper } from '@patrick-baber-test/react'
 import React from 'react'
 
 export default ({

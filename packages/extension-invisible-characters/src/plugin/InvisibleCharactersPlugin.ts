@@ -1,6 +1,6 @@
-import type { EditorState } from '@tiptap/pm/state'
-import { AllSelection, Plugin, PluginKey } from '@tiptap/pm/state'
-import { DecorationSet } from '@tiptap/pm/view'
+import type { EditorState } from '@patrick-baber-test/pm/state'
+import { AllSelection, Plugin, PluginKey } from '@patrick-baber-test/pm/state'
+import { DecorationSet } from '@patrick-baber-test/pm/view'
 
 import type { InvisibleCharactersOptions, PluginState } from '../types.js'
 import { stateReducer } from './reducers.js'

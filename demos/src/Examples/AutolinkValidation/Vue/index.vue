@@ -3,9 +3,9 @@
 </template>
 
 <script>
-import Link from '@tiptap/extension-link'
-import StarterKit from '@tiptap/starter-kit'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Link from '@patrick-baber-test/extension-link'
+import StarterKit from '@patrick-baber-test/starter-kit'
+import { Editor, EditorContent } from '@patrick-baber-test/vue-3'
 
 export default {
   components: {

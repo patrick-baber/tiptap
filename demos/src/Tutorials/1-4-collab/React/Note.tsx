@@ -1,7 +1,7 @@
 import { TiptapCollabProvider } from '@hocuspocus/provider'
-import { Collaboration } from '@tiptap/extension-collaboration'
-import { EditorContent, useEditor } from '@tiptap/react'
-import { StarterKit } from '@tiptap/starter-kit'
+import { Collaboration } from '@patrick-baber-test/extension-collaboration'
+import { EditorContent, useEditor } from '@patrick-baber-test/react'
+import { StarterKit } from '@patrick-baber-test/starter-kit'
 import React, { useEffect } from 'react'
 import * as Y from 'yjs'
 

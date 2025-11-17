@@ -1,5 +1,5 @@
-import type { CodeBlockOptions } from '@tiptap/extension-code-block'
-import CodeBlock from '@tiptap/extension-code-block'
+import type { CodeBlockOptions } from '@patrick-baber-test/extension-code-block'
+import CodeBlock from '@patrick-baber-test/extension-code-block'
 
 import { LowlightPlugin } from './lowlight-plugin.js'
 

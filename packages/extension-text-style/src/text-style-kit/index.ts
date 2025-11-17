@@ -1,4 +1,4 @@
-import { Extension } from '@tiptap/core'
+import { Extension } from '@patrick-baber-test/core'
 
 import type { BackgroundColorOptions } from '../background-color/index.js'
 import { BackgroundColor } from '../background-color/index.js'

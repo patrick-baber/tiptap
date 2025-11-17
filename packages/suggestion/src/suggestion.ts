@@ -1,8 +1,8 @@
-import type { Editor, Range } from '@tiptap/core'
-import type { EditorState } from '@tiptap/pm/state'
-import { Plugin, PluginKey } from '@tiptap/pm/state'
-import type { EditorView } from '@tiptap/pm/view'
-import { Decoration, DecorationSet } from '@tiptap/pm/view'
+import type { Editor, Range } from '@patrick-baber-test/core'
+import type { EditorState } from '@patrick-baber-test/pm/state'
+import { Plugin, PluginKey } from '@patrick-baber-test/pm/state'
+import type { EditorView } from '@patrick-baber-test/pm/view'
+import { Decoration, DecorationSet } from '@patrick-baber-test/pm/view'
 
 import { findSuggestionMatch as defaultFindSuggestionMatch } from './findSuggestionMatch.js'
 

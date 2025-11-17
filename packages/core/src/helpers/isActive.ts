@@ -1,4 +1,4 @@
-import type { EditorState } from '@tiptap/pm/state'
+import type { EditorState } from '@patrick-baber-test/pm/state'
 
 import { getSchemaTypeNameByName } from './getSchemaTypeNameByName.js'
 import { isMarkActive } from './isMarkActive.js'

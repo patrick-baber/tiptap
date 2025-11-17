@@ -31,13 +31,13 @@
 </template>
 
 <script>
-import Bold from '@tiptap/extension-bold'
-import Collaboration from '@tiptap/extension-collaboration'
-import Document from '@tiptap/extension-document'
-import Heading from '@tiptap/extension-heading'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Bold from '@patrick-baber-test/extension-bold'
+import Collaboration from '@patrick-baber-test/extension-collaboration'
+import Document from '@patrick-baber-test/extension-document'
+import Heading from '@patrick-baber-test/extension-heading'
+import Paragraph from '@patrick-baber-test/extension-paragraph'
+import Text from '@patrick-baber-test/extension-text'
+import { Editor, EditorContent } from '@patrick-baber-test/vue-3'
 import * as Y from 'yjs'
 
 import CollaborationAnnotation from './extension/index.ts'

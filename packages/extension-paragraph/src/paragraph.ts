@@ -1,4 +1,4 @@
-import { mergeAttributes, Node } from '@tiptap/core'
+import { mergeAttributes, Node } from '@patrick-baber-test/core'
 
 export interface ParagraphOptions {
   /**
@@ -9,7 +9,7 @@ export interface ParagraphOptions {
   HTMLAttributes: Record<string, any>
 }
 
-declare module '@tiptap/core' {
+declare module '@patrick-baber-test/core' {
   interface Commands<ReturnType> {
     paragraph: {
       /**

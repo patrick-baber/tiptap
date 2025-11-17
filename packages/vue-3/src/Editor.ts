@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/rules-of-hooks */
-import type { EditorOptions, Storage } from '@tiptap/core'
-import { Editor as CoreEditor } from '@tiptap/core'
-import type { EditorState, Plugin, PluginKey } from '@tiptap/pm/state'
+import type { EditorOptions, Storage } from '@patrick-baber-test/core'
+import { Editor as CoreEditor } from '@patrick-baber-test/core'
+import type { EditorState, Plugin, PluginKey } from '@patrick-baber-test/pm/state'
 import type { AppContext, ComponentInternalInstance, ComponentPublicInstance, Ref } from 'vue'
 import { customRef, markRaw } from 'vue'
 

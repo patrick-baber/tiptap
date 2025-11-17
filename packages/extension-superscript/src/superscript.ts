@@ -1,5 +1,5 @@
-import { Mark, mergeAttributes } from '@tiptap/core'
-import type { StyleParseRule } from '@tiptap/pm/model'
+import { Mark, mergeAttributes } from '@patrick-baber-test/core'
+import type { StyleParseRule } from '@patrick-baber-test/pm/model'
 
 export interface SuperscriptExtensionOptions {
   /**
@@ -10,7 +10,7 @@ export interface SuperscriptExtensionOptions {
   HTMLAttributes: Record<string, any>
 }
 
-declare module '@tiptap/core' {
+declare module '@patrick-baber-test/core' {
   interface Commands<ReturnType> {
     superscript: {
       /**

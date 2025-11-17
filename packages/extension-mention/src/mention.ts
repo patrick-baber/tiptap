@@ -1,9 +1,9 @@
-import type { Editor } from '@tiptap/core'
-import { createInlineMarkdownSpec, mergeAttributes, Node } from '@tiptap/core'
-import type { DOMOutputSpec } from '@tiptap/pm/model'
-import { Node as ProseMirrorNode } from '@tiptap/pm/model'
-import type { SuggestionOptions } from '@tiptap/suggestion'
-import { Suggestion } from '@tiptap/suggestion'
+import type { Editor } from '@patrick-baber-test/core'
+import { createInlineMarkdownSpec, mergeAttributes, Node } from '@patrick-baber-test/core'
+import type { DOMOutputSpec } from '@patrick-baber-test/pm/model'
+import { Node as ProseMirrorNode } from '@patrick-baber-test/pm/model'
+import type { SuggestionOptions } from '@patrick-baber-test/suggestion'
+import { Suggestion } from '@patrick-baber-test/suggestion'
 
 import { getSuggestionOptions } from './utils/get-default-suggestion-attributes.js'
 

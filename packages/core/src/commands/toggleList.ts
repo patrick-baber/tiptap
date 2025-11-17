@@ -1,6 +1,6 @@
-import type { NodeType } from '@tiptap/pm/model'
-import type { Transaction } from '@tiptap/pm/state'
-import { canJoin } from '@tiptap/pm/transform'
+import type { NodeType } from '@patrick-baber-test/pm/model'
+import type { Transaction } from '@patrick-baber-test/pm/state'
+import { canJoin } from '@patrick-baber-test/pm/transform'
 
 import { findParentNode } from '../helpers/findParentNode.js'
 import { getNodeType } from '../helpers/getNodeType.js'
@@ -57,7 +57,7 @@ const joinListForwards = (tr: Transaction, listType: NodeType): boolean => {
   return true
 }
 
-declare module '@tiptap/core' {
+declare module '@patrick-baber-test/core' {
   interface Commands<ReturnType> {
     toggleList: {
       /**

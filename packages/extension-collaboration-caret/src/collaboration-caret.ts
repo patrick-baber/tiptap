@@ -1,5 +1,5 @@
-import { Extension } from '@tiptap/core'
-import type { DecorationAttrs } from '@tiptap/pm/view'
+import { Extension } from '@patrick-baber-test/core'
+import type { DecorationAttrs } from '@patrick-baber-test/pm/view'
 import { defaultSelectionBuilder, yCursorPlugin } from '@tiptap/y-tiptap'
 
 type CollaborationCaretStorage = {
@@ -60,7 +60,7 @@ export interface CollaborationCaretOptions {
   onUpdate: (users: { clientId: number; [key: string]: any }[]) => null
 }
 
-declare module '@tiptap/core' {
+declare module '@patrick-baber-test/core' {
   interface Commands<ReturnType> {
     collaborationCaret: {
       /**

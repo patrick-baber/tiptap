@@ -1,8 +1,8 @@
-import type { Plugin, PluginKey } from '@tiptap/pm/state'
+import type { Plugin, PluginKey } from '@patrick-baber-test/pm/state'
 
 import type { RawCommands } from '../types.js'
 
-declare module '@tiptap/core' {
+declare module '@patrick-baber-test/core' {
   interface Commands<ReturnType> {
     setMeta: {
       /**

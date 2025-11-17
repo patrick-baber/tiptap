@@ -1,8 +1,8 @@
 import './styles.scss'
 
-import { EditorContent, useEditor } from '@tiptap/react'
-import { BubbleMenu, FloatingMenu } from '@tiptap/react/menus'
-import StarterKit from '@tiptap/starter-kit'
+import { EditorContent, useEditor } from '@patrick-baber-test/react'
+import { BubbleMenu, FloatingMenu } from '@patrick-baber-test/react/menus'
+import StarterKit from '@patrick-baber-test/starter-kit'
 import React from 'react'
 
 export default () => {

@@ -21,9 +21,9 @@
 </template>
 
 <script>
-import Image from '@tiptap/extension-image'
-import StarterKit from '@tiptap/starter-kit'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import Image from '@patrick-baber-test/extension-image'
+import StarterKit from '@patrick-baber-test/starter-kit'
+import { Editor, EditorContent } from '@patrick-baber-test/vue-3'
 
 import { Figure } from './figure.ts'
 

@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-shadow */
-import type { MarkViewProps, MarkViewRenderer, MarkViewRendererOptions } from '@tiptap/core'
-import { MarkView } from '@tiptap/core'
+import type { MarkViewProps, MarkViewRenderer, MarkViewRendererOptions } from '@patrick-baber-test/core'
+import { MarkView } from '@patrick-baber-test/core'
 import React from 'react'
 
 // import { flushSync } from 'react-dom'

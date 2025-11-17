@@ -7,9 +7,9 @@ import {
   getExtensionField,
   mergeAttributes,
   Node,
-} from '@tiptap/core'
-import type { DOMOutputSpec, Node as ProseMirrorNode } from '@tiptap/pm/model'
-import { TextSelection } from '@tiptap/pm/state'
+} from '@patrick-baber-test/core'
+import type { DOMOutputSpec, Node as ProseMirrorNode } from '@patrick-baber-test/pm/model'
+import { TextSelection } from '@patrick-baber-test/pm/state'
 import {
   addColumnAfter,
   addColumnBefore,
@@ -28,8 +28,8 @@ import {
   tableEditing,
   toggleHeader,
   toggleHeaderCell,
-} from '@tiptap/pm/tables'
-import type { EditorView, NodeView } from '@tiptap/pm/view'
+} from '@patrick-baber-test/pm/tables'
+import type { EditorView, NodeView } from '@patrick-baber-test/pm/view'
 
 import { TableView } from './TableView.js'
 import { createColGroup } from './utilities/createColGroup.js'
@@ -100,7 +100,7 @@ export interface TableOptions {
   allowTableNodeSelection: boolean
 }
 
-declare module '@tiptap/core' {
+declare module '@patrick-baber-test/core' {
   interface Commands<ReturnType> {
     table: {
       /**

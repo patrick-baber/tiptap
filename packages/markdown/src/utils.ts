@@ -1,5 +1,5 @@
-import type { Content, MarkdownToken } from '@tiptap/core'
-import type { Fragment, Node } from '@tiptap/pm/model'
+import type { Content, MarkdownToken } from '@patrick-baber-test/core'
+import type { Fragment, Node } from '@patrick-baber-test/pm/model'
 
 import type { ContentType } from './types.js'
 

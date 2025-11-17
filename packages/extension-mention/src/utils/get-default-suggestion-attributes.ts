@@ -1,6 +1,6 @@
-import type { Editor } from '@tiptap/core'
-import { PluginKey } from '@tiptap/pm/state'
-import type { SuggestionOptions } from '@tiptap/suggestion'
+import type { Editor } from '@patrick-baber-test/core'
+import { PluginKey } from '@patrick-baber-test/pm/state'
+import type { SuggestionOptions } from '@patrick-baber-test/suggestion'
 
 /**
  * Arguments for the `getSuggestionOptions` function

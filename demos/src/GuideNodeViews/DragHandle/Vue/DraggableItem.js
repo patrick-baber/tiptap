@@ -1,5 +1,5 @@
-import { mergeAttributes, Node } from '@tiptap/core'
-import { VueNodeViewRenderer } from '@tiptap/vue-3'
+import { mergeAttributes, Node } from '@patrick-baber-test/core'
+import { VueNodeViewRenderer } from '@patrick-baber-test/vue-3'
 
 import Component from './Component.vue'
 

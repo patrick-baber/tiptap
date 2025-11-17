@@ -1,5 +1,5 @@
-import { Extension } from '@tiptap/core'
-import { NodeSelection, Plugin } from '@tiptap/pm/state'
+import { Extension } from '@patrick-baber-test/core'
+import { NodeSelection, Plugin } from '@patrick-baber-test/pm/state'
 
 function removeNode(node) {
   node.parentNode.removeChild(node)

@@ -1,5 +1,5 @@
-import type { MarkViewRendererProps } from '@tiptap/react'
-import { MarkViewContent } from '@tiptap/react'
+import type { MarkViewRendererProps } from '@patrick-baber-test/react'
+import { MarkViewContent } from '@patrick-baber-test/react'
 import React from 'react'
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars

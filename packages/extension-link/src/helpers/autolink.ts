@@ -1,7 +1,12 @@
-import type { NodeWithPos } from '@tiptap/core'
-import { combineTransactionSteps, findChildrenInRange, getChangedRanges, getMarksBetween } from '@tiptap/core'
-import type { MarkType } from '@tiptap/pm/model'
-import { Plugin, PluginKey } from '@tiptap/pm/state'
+import type { NodeWithPos } from '@patrick-baber-test/core'
+import {
+  combineTransactionSteps,
+  findChildrenInRange,
+  getChangedRanges,
+  getMarksBetween,
+} from '@patrick-baber-test/core'
+import type { MarkType } from '@patrick-baber-test/pm/model'
+import { Plugin, PluginKey } from '@patrick-baber-test/pm/state'
 import type { MultiToken } from 'linkifyjs'
 import { tokenize } from 'linkifyjs'
 

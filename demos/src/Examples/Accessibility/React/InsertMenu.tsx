@@ -1,6 +1,6 @@
-import type { Editor } from '@tiptap/react'
-import { useEditorState } from '@tiptap/react'
-import { FloatingMenu } from '@tiptap/react/menus'
+import type { Editor } from '@patrick-baber-test/react'
+import { useEditorState } from '@patrick-baber-test/react'
+import { FloatingMenu } from '@patrick-baber-test/react/menus'
 import React, { useRef } from 'react'
 
 import { useMenubarNav } from './useMenubarNav.js'

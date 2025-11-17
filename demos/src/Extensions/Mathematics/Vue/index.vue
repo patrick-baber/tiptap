@@ -21,9 +21,9 @@
 <script>
 import 'katex/dist/katex.min.css'
 
-import { Mathematics, migrateMathStrings } from '@tiptap/extension-mathematics'
-import StarterKit from '@tiptap/starter-kit'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import { Mathematics, migrateMathStrings } from '@patrick-baber-test/extension-mathematics'
+import StarterKit from '@patrick-baber-test/starter-kit'
+import { Editor, EditorContent } from '@patrick-baber-test/vue-3'
 import { defineComponent } from 'vue'
 
 export default defineComponent({

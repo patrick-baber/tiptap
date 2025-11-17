@@ -1,6 +1,6 @@
-import { Extension } from '@tiptap/core'
-import { Plugin, PluginKey } from '@tiptap/pm/state'
-import { Decoration, DecorationSet } from '@tiptap/pm/view'
+import { Extension } from '@patrick-baber-test/core'
+import { Plugin, PluginKey } from '@patrick-baber-test/pm/state'
+import { Decoration, DecorationSet } from '@patrick-baber-test/pm/view'
 
 export interface FocusOptions {
   /**

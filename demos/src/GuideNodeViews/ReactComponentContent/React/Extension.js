@@ -1,5 +1,5 @@
-import { mergeAttributes, Node } from '@tiptap/core'
-import { ReactNodeViewRenderer } from '@tiptap/react'
+import { mergeAttributes, Node } from '@patrick-baber-test/core'
+import { ReactNodeViewRenderer } from '@patrick-baber-test/react'
 
 import Component from './Component.jsx'
 

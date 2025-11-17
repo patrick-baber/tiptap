@@ -1,6 +1,6 @@
-import { Placeholder } from '@tiptap/extensions'
+import { Placeholder } from '@patrick-baber-test/extensions'
 
-export type { PlaceholderOptions } from '@tiptap/extensions'
-export { Placeholder } from '@tiptap/extensions'
+export type { PlaceholderOptions } from '@patrick-baber-test/extensions'
+export { Placeholder } from '@patrick-baber-test/extensions'
 
 export default Placeholder

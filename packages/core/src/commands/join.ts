@@ -3,11 +3,11 @@ import {
   joinDown as originalJoinDown,
   joinForward as originalJoinForward,
   joinUp as originalJoinUp,
-} from '@tiptap/pm/commands'
+} from '@patrick-baber-test/pm/commands'
 
 import type { RawCommands } from '../types.js'
 
-declare module '@tiptap/core' {
+declare module '@patrick-baber-test/core' {
   interface Commands<ReturnType> {
     joinUp: {
       /**

@@ -1,5 +1,5 @@
-import type { Node, Schema } from '@tiptap/pm/model'
-import { DOMSerializer } from '@tiptap/pm/model'
+import type { Node, Schema } from '@patrick-baber-test/pm/model'
+import { DOMSerializer } from '@patrick-baber-test/pm/model'
 import { Window } from 'happy-dom'
 
 /**

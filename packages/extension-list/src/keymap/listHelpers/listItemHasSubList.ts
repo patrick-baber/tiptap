@@ -1,6 +1,6 @@
-import { getNodeType } from '@tiptap/core'
-import type { Node } from '@tiptap/pm/model'
-import type { EditorState } from '@tiptap/pm/state'
+import { getNodeType } from '@patrick-baber-test/core'
+import type { Node } from '@patrick-baber-test/pm/model'
+import type { EditorState } from '@patrick-baber-test/pm/state'
 
 export const listItemHasSubList = (typeOrName: string, state: EditorState, node?: Node) => {
   if (!node) {

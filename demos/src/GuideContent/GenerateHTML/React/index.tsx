@@ -1,11 +1,11 @@
-import Bold from '@tiptap/extension-bold'
+import Bold from '@patrick-baber-test/extension-bold'
 // Option 2: Browser-only (lightweight)
-// import { generateHTML } from '@tiptap/core'
-import Document from '@tiptap/extension-document'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
+// import { generateHTML } from '@patrick-baber-test/core'
+import Document from '@patrick-baber-test/extension-document'
+import Paragraph from '@patrick-baber-test/extension-paragraph'
+import Text from '@patrick-baber-test/extension-text'
 // Option 1: Browser + server-side
-import { generateHTML } from '@tiptap/html'
+import { generateHTML } from '@patrick-baber-test/html'
 import React, { useMemo } from 'react'
 
 const json = {

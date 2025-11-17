@@ -1,4 +1,4 @@
-import { Node } from '@tiptap/core'
+import { Node } from '@patrick-baber-test/core'
 
 /**
  * This extension allows you to create text nodes.

@@ -22,10 +22,10 @@
 </template>
 
 <script>
-import { DragHandle } from '@tiptap/extension-drag-handle-vue-3'
-import NodeRange from '@tiptap/extension-node-range'
-import StarterKit from '@tiptap/starter-kit'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import { DragHandle } from '@patrick-baber-test/extension-drag-handle-vue-3'
+import NodeRange from '@patrick-baber-test/extension-node-range'
+import StarterKit from '@patrick-baber-test/starter-kit'
+import { Editor, EditorContent } from '@patrick-baber-test/vue-3'
 
 export default {
   components: {

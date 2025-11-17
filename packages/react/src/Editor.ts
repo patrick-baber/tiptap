@@ -1,4 +1,4 @@
-import type { Editor } from '@tiptap/core'
+import type { Editor } from '@patrick-baber-test/core'
 import type { ReactPortal } from 'react'
 
 import type { ReactRenderer } from './ReactRenderer.js'

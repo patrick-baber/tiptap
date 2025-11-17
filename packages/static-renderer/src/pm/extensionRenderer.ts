@@ -9,16 +9,16 @@ import type {
   MarkConfig,
   Node as NodeExtension,
   NodeConfig,
-} from '@tiptap/core'
+} from '@patrick-baber-test/core'
 import {
   getAttributesFromExtensions,
   getExtensionField,
   getSchemaByResolvedExtensions,
   resolveExtensions,
   splitExtensions,
-} from '@tiptap/core'
-import type { DOMOutputSpec, Mark } from '@tiptap/pm/model'
-import { Node } from '@tiptap/pm/model'
+} from '@patrick-baber-test/core'
+import type { DOMOutputSpec, Mark } from '@patrick-baber-test/pm/model'
+import { Node } from '@patrick-baber-test/pm/model'
 
 import { getHTMLAttributes } from '../helpers.js'
 import type { MarkProps, NodeProps, TiptapStaticRendererOptions } from '../json/renderer.js'

@@ -1,8 +1,8 @@
 import './styles.scss'
 
-import { LineHeight, TextStyle } from '@tiptap/extension-text-style'
-import { EditorContent, useEditor, useEditorState } from '@tiptap/react'
-import StarterKit from '@tiptap/starter-kit'
+import { LineHeight, TextStyle } from '@patrick-baber-test/extension-text-style'
+import { EditorContent, useEditor, useEditorState } from '@patrick-baber-test/react'
+import StarterKit from '@patrick-baber-test/starter-kit'
 import React from 'react'
 
 export default () => {

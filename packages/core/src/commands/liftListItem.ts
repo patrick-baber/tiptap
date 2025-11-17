@@ -1,10 +1,10 @@
-import type { NodeType } from '@tiptap/pm/model'
-import { liftListItem as originalLiftListItem } from '@tiptap/pm/schema-list'
+import type { NodeType } from '@patrick-baber-test/pm/model'
+import { liftListItem as originalLiftListItem } from '@patrick-baber-test/pm/schema-list'
 
 import { getNodeType } from '../helpers/getNodeType.js'
 import type { RawCommands } from '../types.js'
 
-declare module '@tiptap/core' {
+declare module '@patrick-baber-test/core' {
   interface Commands<ReturnType> {
     liftListItem: {
       /**

@@ -1,5 +1,5 @@
-import { type ResolvedPos, NodeRange } from '@tiptap/pm/model'
-import { SelectionRange } from '@tiptap/pm/state'
+import { type ResolvedPos, NodeRange } from '@patrick-baber-test/pm/model'
+import { SelectionRange } from '@patrick-baber-test/pm/state'
 
 export function getSelectionRanges($from: ResolvedPos, $to: ResolvedPos, depth?: number): SelectionRange[] {
   const ranges: SelectionRange[] = []

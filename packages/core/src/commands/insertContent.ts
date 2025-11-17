@@ -1,4 +1,4 @@
-import type { Fragment, Node as ProseMirrorNode, ParseOptions } from '@tiptap/pm/model'
+import type { Fragment, Node as ProseMirrorNode, ParseOptions } from '@patrick-baber-test/pm/model'
 
 import type { Content, RawCommands } from '../types.js'
 
@@ -16,7 +16,7 @@ export interface InsertContentOptions {
   applyPasteRules?: boolean
 }
 
-declare module '@tiptap/core' {
+declare module '@patrick-baber-test/core' {
   interface Commands<ReturnType> {
     insertContent: {
       /**

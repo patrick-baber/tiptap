@@ -1,8 +1,8 @@
-import { liftTarget } from '@tiptap/pm/transform'
+import { liftTarget } from '@patrick-baber-test/pm/transform'
 
 import type { RawCommands } from '../types.js'
 
-declare module '@tiptap/core' {
+declare module '@patrick-baber-test/core' {
   interface Commands<ReturnType> {
     clearNodes: {
       /**

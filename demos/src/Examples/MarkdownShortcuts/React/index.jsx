@@ -1,9 +1,9 @@
 import './styles.scss'
 
-import Highlight from '@tiptap/extension-highlight'
-import Typography from '@tiptap/extension-typography'
-import { EditorContent, useEditor } from '@tiptap/react'
-import StarterKit from '@tiptap/starter-kit'
+import Highlight from '@patrick-baber-test/extension-highlight'
+import Typography from '@patrick-baber-test/extension-typography'
+import { EditorContent, useEditor } from '@patrick-baber-test/react'
+import StarterKit from '@patrick-baber-test/starter-kit'
 import React from 'react'
 
 export default () => {

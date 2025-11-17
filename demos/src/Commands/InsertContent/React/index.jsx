@@ -1,10 +1,10 @@
 import './styles.scss'
 
-import { Image } from '@tiptap/extension-image'
-import Link from '@tiptap/extension-link'
-import { Color, TextStyle } from '@tiptap/extension-text-style'
-import { EditorProvider, useCurrentEditor } from '@tiptap/react'
-import StarterKit from '@tiptap/starter-kit'
+import { Image } from '@patrick-baber-test/extension-image'
+import Link from '@patrick-baber-test/extension-link'
+import { Color, TextStyle } from '@patrick-baber-test/extension-text-style'
+import { EditorProvider, useCurrentEditor } from '@patrick-baber-test/react'
+import StarterKit from '@patrick-baber-test/starter-kit'
 import React, { useCallback } from 'react'
 
 const htmlContent = `

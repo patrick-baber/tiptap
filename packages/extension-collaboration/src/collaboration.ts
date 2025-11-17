@@ -1,6 +1,6 @@
-import { Extension } from '@tiptap/core'
-import { Plugin, PluginKey } from '@tiptap/pm/state'
-import type { EditorView } from '@tiptap/pm/view'
+import { Extension } from '@patrick-baber-test/core'
+import { Plugin, PluginKey } from '@patrick-baber-test/pm/state'
+import type { EditorView } from '@patrick-baber-test/pm/view'
 import { redo, undo, ySyncPlugin, yUndoPlugin, yUndoPluginKey, yXmlFragmentToProsemirrorJSON } from '@tiptap/y-tiptap'
 import type { Doc, UndoManager, XmlFragment } from 'yjs'
 
@@ -15,7 +15,7 @@ export interface CollaborationStorage {
   isDisabled: boolean
 }
 
-declare module '@tiptap/core' {
+declare module '@patrick-baber-test/core' {
   interface Commands<ReturnType> {
     collaboration: {
       /**
@@ -105,7 +105,7 @@ export const Collaboration = Extension.create<CollaborationOptions, Collaboratio
   onCreate() {
     if (this.editor.extensionManager.extensions.find(extension => extension.name === 'undoRedo')) {
       console.warn(
-        '[tiptap warn]: "@tiptap/extension-collaboration" comes with its own history support and is not compatible with "@tiptap/extension-undo-redo".',
+        '[tiptap warn]: "@patrick-baber-test/extension-collaboration" comes with its own history support and is not compatible with "@patrick-baber-test/extension-undo-redo".',
       )
     }
   },

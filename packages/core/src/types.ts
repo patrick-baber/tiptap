@@ -1,6 +1,11 @@
-import type { Mark as ProseMirrorMark, Node as ProseMirrorNode, ParseOptions, Slice } from '@tiptap/pm/model'
-import type { EditorState, Transaction } from '@tiptap/pm/state'
-import type { Mappable, Transform } from '@tiptap/pm/transform'
+import type {
+  Mark as ProseMirrorMark,
+  Node as ProseMirrorNode,
+  ParseOptions,
+  Slice,
+} from '@patrick-baber-test/pm/model'
+import type { EditorState, Transaction } from '@patrick-baber-test/pm/state'
+import type { Mappable, Transform } from '@patrick-baber-test/pm/transform'
 import type {
   Decoration,
   DecorationAttrs,
@@ -11,7 +16,7 @@ import type {
   NodeView,
   NodeViewConstructor,
   ViewMutationRecord,
-} from '@tiptap/pm/view'
+} from '@patrick-baber-test/pm/view'
 
 import type { Editor } from './Editor.js'
 import type { Extendable } from './Extendable.js'

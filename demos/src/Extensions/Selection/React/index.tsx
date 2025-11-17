@@ -1,12 +1,12 @@
 import './styles.scss'
 
-import Code from '@tiptap/extension-code'
-import Document from '@tiptap/extension-document'
-import { BulletList, ListItem } from '@tiptap/extension-list'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { Selection } from '@tiptap/extensions'
-import { EditorContent, useEditor } from '@tiptap/react'
+import Code from '@patrick-baber-test/extension-code'
+import Document from '@patrick-baber-test/extension-document'
+import { BulletList, ListItem } from '@patrick-baber-test/extension-list'
+import Paragraph from '@patrick-baber-test/extension-paragraph'
+import Text from '@patrick-baber-test/extension-text'
+import { Selection } from '@patrick-baber-test/extensions'
+import { EditorContent, useEditor } from '@patrick-baber-test/react'
 import React from 'react'
 
 export default () => {

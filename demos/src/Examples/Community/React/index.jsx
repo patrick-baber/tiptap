@@ -1,11 +1,11 @@
 import './styles.scss'
 
-import Document from '@tiptap/extension-document'
-import Mention from '@tiptap/extension-mention'
-import Paragraph from '@tiptap/extension-paragraph'
-import Text from '@tiptap/extension-text'
-import { CharacterCount } from '@tiptap/extensions'
-import { EditorContent, useEditor, useEditorState } from '@tiptap/react'
+import Document from '@patrick-baber-test/extension-document'
+import Mention from '@patrick-baber-test/extension-mention'
+import Paragraph from '@patrick-baber-test/extension-paragraph'
+import Text from '@patrick-baber-test/extension-text'
+import { CharacterCount } from '@patrick-baber-test/extensions'
+import { EditorContent, useEditor, useEditorState } from '@patrick-baber-test/react'
 import React from 'react'
 
 import suggestion from './suggestion.js'

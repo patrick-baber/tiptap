@@ -1,8 +1,8 @@
 import './styles.scss'
 
-import { EditorContent, mergeAttributes, Node, useEditor } from '@tiptap/react'
-import { FloatingMenu } from '@tiptap/react/menus'
-import StarterKit from '@tiptap/starter-kit'
+import { EditorContent, mergeAttributes, Node, useEditor } from '@patrick-baber-test/react'
+import { FloatingMenu } from '@patrick-baber-test/react/menus'
+import StarterKit from '@patrick-baber-test/starter-kit'
 import React, { useEffect } from 'react'
 
 const Foo = Node.create({

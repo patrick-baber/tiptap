@@ -48,8 +48,8 @@ This demo showcases **bidirectional** markdown support in Tiptap with extended f
 Tiptap supports \`inline code\` and full code blocks:
 
 \`\`\`javascript
-import { Editor } from '@tiptap/core'
-import { StarterKit } from '@tiptap/starter-kit'
+import { Editor } from '@patrick-baber-test/core'
+import { StarterKit } from '@patrick-baber-test/starter-kit'
 
 const editor = new Editor({
   extensions: [StarterKit],

@@ -1,5 +1,5 @@
-import { type BubbleMenuPluginProps, BubbleMenuPlugin } from '@tiptap/extension-bubble-menu'
-import { useCurrentEditor } from '@tiptap/react'
+import { type BubbleMenuPluginProps, BubbleMenuPlugin } from '@patrick-baber-test/extension-bubble-menu'
+import { useCurrentEditor } from '@patrick-baber-test/react'
 import React, { useEffect, useRef } from 'react'
 import { createPortal } from 'react-dom'
 
