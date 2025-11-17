@@ -8,6 +8,7 @@ on:
     branches:
       - main
       - release/*
+      - develop
   # manual trigger for other branches
   workflow_dispatch:
 
