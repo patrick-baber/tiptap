@@ -1,5 +1,37 @@
 # Change Log
 
+## 3.10.8
+
+### Patch Changes
+
+- Updated dependencies [8375241]
+- Updated dependencies [b7ead7c]
+- Updated dependencies [fd479bd]
+  - @patrick-baber-test/core@3.10.8
+  - @patrick-baber-test/extension-dropcursor@3.10.8
+  - @patrick-baber-test/extension-gapcursor@3.10.8
+  - @patrick-baber-test/extension-list-item@3.10.8
+  - @patrick-baber-test/extension-list-keymap@3.10.8
+  - @patrick-baber-test/extension-blockquote@3.10.8
+  - @patrick-baber-test/extension-bold@3.10.8
+  - @patrick-baber-test/extension-bullet-list@3.10.8
+  - @patrick-baber-test/extension-code@3.10.8
+  - @patrick-baber-test/extension-code-block@3.10.8
+  - @patrick-baber-test/extension-document@3.10.8
+  - @patrick-baber-test/extension-hard-break@3.10.8
+  - @patrick-baber-test/extension-heading@3.10.8
+  - @patrick-baber-test/extension-horizontal-rule@3.10.8
+  - @patrick-baber-test/extension-italic@3.10.8
+  - @patrick-baber-test/extension-link@3.10.8
+  - @patrick-baber-test/extension-list@3.10.8
+  - @patrick-baber-test/extension-ordered-list@3.10.8
+  - @patrick-baber-test/extension-paragraph@3.10.8
+  - @patrick-baber-test/extension-strike@3.10.8
+  - @patrick-baber-test/extension-text@3.10.8
+  - @patrick-baber-test/extension-underline@3.10.8
+  - @patrick-baber-test/extensions@3.10.8
+  - @patrick-baber-test/pm@3.10.8
+
 ## 3.10.7
 
 ### Patch Changes

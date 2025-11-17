@@ -1,5 +1,15 @@
 # @tiptap/extension-unique-id
 
+## 3.10.8
+
+### Patch Changes
+
+- Updated dependencies [8375241]
+- Updated dependencies [b7ead7c]
+- Updated dependencies [fd479bd]
+  - @patrick-baber-test/core@3.10.8
+  - @patrick-baber-test/pm@3.10.8
+
 ## 3.10.7
 
 ### Patch Changes

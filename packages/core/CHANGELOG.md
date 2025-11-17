@@ -1,5 +1,14 @@
 # Change Log
 
+## 3.10.8
+
+### Patch Changes
+
+- 8375241: Fixed a bug that caused extra characters to be inserted after a parsed, nestable content block by accounting for leading newlines
+- b7ead7c: Add documentation comments to Tiptap JSON types
+- fd479bd: Fix `updateAttributes` and `resetAttributes` commands to return accurate results when used with `.can()`. Previously, these commands would always return `true` even when they couldn't perform the operation. Now they correctly return `false` when no matching nodes or marks are found in the selection.
+  - @patrick-baber-test/pm@3.10.8
+
 ## 3.10.7
 
 ### Patch Changes
