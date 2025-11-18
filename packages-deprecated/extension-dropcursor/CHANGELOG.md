@@ -1,5 +1,11 @@
 # Change Log
 
+## 3.10.9
+
+### Patch Changes
+
+- @patrick-baber-test/extensions@3.10.9
+
 ## 3.10.8
 
 ### Patch Changes

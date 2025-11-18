@@ -1,5 +1,13 @@
 # Releases
 
+## v3.10.9
+
+### @patrick-baber-test/core
+
+#### Patch Changes
+
+- Test trusted publishing workflow
+
 ## v3.10.8
 
 ### @patrick-baber-test/core
