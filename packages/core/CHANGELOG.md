@@ -1,5 +1,12 @@
 # Change Log
 
+## 3.10.9
+
+### Patch Changes
+
+- 792c7bb: Test trusted publishing workflow
+  - @patrick-baber-test/pm@3.10.9
+
 ## 3.10.8
 
 ### Patch Changes

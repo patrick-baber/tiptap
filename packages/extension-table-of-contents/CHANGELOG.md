@@ -1,5 +1,13 @@
 # @tiptap/extension-table-of-contents
 
+## 3.10.9
+
+### Patch Changes
+
+- Updated dependencies [792c7bb]
+  - @patrick-baber-test/core@3.10.9
+  - @patrick-baber-test/pm@3.10.9
+
 ## 3.10.8
 
 ### Patch Changes

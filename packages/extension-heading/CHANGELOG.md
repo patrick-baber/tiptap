@@ -1,5 +1,12 @@
 # Change Log
 
+## 3.10.9
+
+### Patch Changes
+
+- Updated dependencies [792c7bb]
+  - @patrick-baber-test/core@3.10.9
+
 ## 3.10.8
 
 ### Patch Changes
