@@ -1,7 +1,7 @@
 {
   "name": "@patrick-baber-test/static-renderer",
   "description": "statically render Tiptap JSON",
-  "version": "3.10.9",
+  "version": "3.10.10",
   "homepage": "https://tiptap.dev",
   "keywords": [
     "tiptap",

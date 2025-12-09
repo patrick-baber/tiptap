@@ -1,7 +1,7 @@
 {
   "name": "@patrick-baber-test/extension-details",
   "description": "details extension for tiptap",
-  "version": "3.10.9",
+  "version": "3.10.10",
   "homepage": "https://tiptap.dev/api/nodes/details",
   "keywords": [
     "tiptap",
